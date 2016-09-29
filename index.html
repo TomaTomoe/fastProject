@@ -8,13 +8,13 @@
     <meta name="robots" content="noindex, follow" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/bootstrap.css"/>
-    <link rel="stylesheet" href="assets/css.css"/>
+    <link rel="stylesheet" href="assets/css/bootstrap.css"/>
+    <link rel="stylesheet" href="assets/css/css.css"/>
   </head>
   <body class="background">
     <div class="page">
       <header id="section-header" class="header section">
-        <div class="widget widget-container parallax container_header">
+        <div data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%" class="widget widget-container parallax container_header">
           <div class="widget widget-container container_subheader">
             <div class="widget widget-row row-gutter-0">
               <div class="container-fluid">
@@ -881,5 +881,10 @@
   </div>
 </footer>
 <div class="back-to-top-button"></div>
+<script src="assets/js/jquery-1.10.1.js"></script>
+<script src="assets/js/jquery.stellar.js"></script>
+<script>
+  $(window).stellar();
+</script>
 </body>
 </html>
