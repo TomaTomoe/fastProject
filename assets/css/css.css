@@ -418,7 +418,7 @@ nav, section, summary {
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    font-size: 59px;
+    font-size: 50px;
     line-height: 1.2;
     letter-spacing: 0px;
 }
@@ -515,12 +515,21 @@ nav, section, summary {
     line-height: 1.7;
     letter-spacing: 0px;
 }
+.text_system_15 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 44px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
 .text_108 {
     font-weight: 300;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
-    font-size: 84px;
+    font-size: 59px;
     line-height: 1.2;
     letter-spacing: 0px;
 }
