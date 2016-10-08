@@ -90,6 +90,11 @@ nav, section, summary {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    transition: all ease .5s;
 }
 .container-fluid,
 .cell {
@@ -133,9 +138,6 @@ nav, section, summary {
 .row-gutter-0 .row {
     margin-left: 0;
     margin-right: 0;
-}
-.widget {
-  position: relative;
 }
 .container_header_logo {
     margin-top: 0px;
@@ -695,7 +697,7 @@ background-repeat: no-repeat;
     padding-bottom: 0px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: transparent;
+    background-color: #e48301;
     border-style: none;
     border-color: #fff;
     border-left-width: 0px;
@@ -706,10 +708,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-about-us6.jpg');
-    background-size: cover;
-    background-position: center top;
-    background-repeat: no-repeat;
 }
 .container_content_h007 {
     margin-top: 0px;
@@ -993,4 +991,8 @@ background-repeat: no-repeat;
 }
 .widget-social-links.preset-default .widget-social-links-link:before {
     color: #ffffff;
+}
+.overscroll {
+    background-color: rgba(0,0,0,0.85);
+    transition: all ease .5s;
 }
