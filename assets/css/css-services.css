@@ -45,6 +45,9 @@ nav, section, summary {
       background-attachment: fixed;
   }
 }
+header#section-header {
+    height: 159px;
+}
 .container_header_logo img.widget-image-picture {
     height: 151px;
 }
@@ -72,6 +75,12 @@ nav, section, summary {
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
+    height: 159px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
 }
 .container_subheader {
     margin-top: 0px;
