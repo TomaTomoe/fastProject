@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
   <link rel="stylesheet" href="../assets/css/css-services.css"/>
 </head>
-<body class="background">
+<body class="background" onload="loadPage()">
   <div class="page">
     <header id="section-header" class="header section">
       <div class="widget widget-container container_header">
@@ -672,11 +672,23 @@
     $(window).stellar();
   </script>
   <script>
+    function loadPage(){
+      var param=window.location.search;
+      console.log(param);
+      if(param){
+        var keyFile = param.split('=');
+        console.log(keyFile);
+        var myFile="/services/descriptions/service_"+keyFile[1]+".txt";
+        console.log(myFile);
+        $("#content").load(myFile);
+      }
+    }
     $(function(){
         $('.service-description').click(function(){
             var url='/services?serv='+this.id;
-            window.location.href = url;
-            $("#content").load("descriptions/demo_test_"+this.id+".txt");
+            var myFile="/services/descriptions/service_"+this.id+".txt";
+            $("#content").load(myFile);
+            history.replaceState('', '', url);
         });
     });
   </script>
