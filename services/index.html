@@ -685,7 +685,7 @@
     }
     $(function(){
         $('.service-description').click(function(){
-            var url='/services?serv='+this.id;
+            var url='/services/?serv='+this.id;
             var myFile="/services/descriptions/service_"+this.id+".txt";
             $("#content").load(myFile);
             history.replaceState('', '', url);
