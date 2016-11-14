@@ -678,7 +678,7 @@
       if(param){
         var keyFile = param.split('=');
         console.log(keyFile);
-        var myFile="/services/descriptions/service_"+keyFile[1]+".html";
+        var myFile="/services/descriptions/service_"+keyFile[1]+".txt";
         console.log(myFile);
         $("#content").load(myFile);
       }
@@ -686,7 +686,7 @@
     $(function(){
         $('.service-description').click(function(){
             var url='/services/?serv='+this.id;
-            var myFile="/services/descriptions/service_"+this.id+".html";
+            var myFile="/services/descriptions/service_"+this.id+".txt";
             $("#content").load(myFile);
             history.replaceState('', '', url);
         });
