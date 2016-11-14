@@ -314,6 +314,7 @@ nav, section, summary {
     color: #ffffff;
     text-decoration: none;
     background-color: transparent;
+    text-align: center;
 }
 .widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1.widget-menu-link-active {
     color: #ffffff;
