@@ -434,7 +434,7 @@ header#section-header {
     line-height: 1.2;
     letter-spacing: 0px;
 }
-#content .text_system_6 {
+.text_system_6 {
     font-weight: 300;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
@@ -443,7 +443,7 @@ header#section-header {
     line-height: 1.2;
     letter-spacing: 0px;
 }
-#content .text_system_7 {
+.text_system_7 {
     font-weight: 400;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
@@ -452,7 +452,7 @@ header#section-header {
     line-height: 1.2;
     letter-spacing: -1px;
 }
-#content .text_system_7 a {
+.text_system_7 a {
     color: #353535;
     text-decoration: none;
     font-weight: 400;
@@ -467,7 +467,7 @@ header#section-header {
     line-height: 1.2;
     letter-spacing: 0px;
 }
-#content .text_system_9 {
+.text_system_9 {
     font-weight: 300;
     font-style: italic;
     font-family: 'Open Sans', sans-serif;
@@ -1042,7 +1042,7 @@ background-repeat: no-repeat;
     background-position: center top;
     background-repeat: no-repeat;
 }
-#content .text_127 {
+.text_127 {
     font-weight: 300;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
@@ -1108,7 +1108,7 @@ background-repeat: no-repeat;
     font-style: normal;
     cursor: pointer;
 }
-#content p {
+#content .ajax-content p, #content .ajax-content ul li {
     font-weight: 400;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
@@ -1116,4 +1116,27 @@ background-repeat: no-repeat;
     font-size: 17px;
     line-height: 1.7;
     letter-spacing: 0px;
+}
+#content .ajax-content ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+#content .ajax-content h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#content .ajax-content {
+  padding-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  min-height: 300px;
 }
