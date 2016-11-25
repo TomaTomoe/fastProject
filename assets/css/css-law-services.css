@@ -318,6 +318,7 @@ header#section-header {
     color: #ffffff;
     text-decoration: none;
     background-color: transparent;
+    text-align: center;
 }
 .widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1.widget-menu-link-active {
     color: #ffffff;
@@ -1016,6 +1017,129 @@ background-repeat: no-repeat;
 .overscroll {
     background-color: rgba(0,0,0,0.85);
     transition: all ease .5s;
+}
+.container_content_number {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url('../images/services-number.png');
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.text_127 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 48px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+.text_normal {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 17px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+}
+.widget-button.preset-2 .widget-button-link {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #353535;
+    background-color: transparent;
+    border-color: #353535;
+}
+.widget-button.preset-2 .widget-button-link:hover {
+    color: #ffffff;
+    background-color: #e48301;
+    border-color: #e48301;
+}
+.container_content_services_parallax {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #cbcccd;
+    border-style: none;
+    border-color: #fff;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-image: url('../images/services-parallax.jpg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.color5_4 {
+    color: #ffffff;
+}
+.text_normal a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+#content .ajax-content p, #content .ajax-content ul li {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 17px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+}
+#content .ajax-content ul li {
+    list-style: none;
+    padding-left: 20px;
+}
+#content .ajax-content h4 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: -1px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#content .ajax-content {
+  padding-top: 40px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+  min-height: 300px;
 }
 .widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1 {
     text-align: center;

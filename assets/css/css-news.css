@@ -1017,3 +1017,14 @@ background-repeat: no-repeat;
     background-color: rgba(0,0,0,0.85);
     transition: all ease .5s;
 }
+.widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1 {
+    text-align: center;
+}
+@media (max-width:1199px) {
+  header#section-header {
+    height: 108px;
+  }
+  .container_header {
+    height: 108px;
+  }
+}

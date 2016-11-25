@@ -318,6 +318,7 @@ header#section-header {
     color: #ffffff;
     text-decoration: none;
     background-color: transparent;
+    text-align: center;
 }
 .widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1.widget-menu-link-active {
     color: #ffffff;
@@ -1139,4 +1140,12 @@ background-repeat: no-repeat;
   margin-right: auto;
   padding-bottom: 50px;
   min-height: 300px;
+}
+@media (max-width:1199px) {
+  header#section-header {
+    height: 108px;
+  }
+  .container_header {
+    height: 108px;
+  }
 }

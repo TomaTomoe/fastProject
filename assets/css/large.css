@@ -1,0 +1,14 @@
+.container_header_logo img.widget-image-picture {
+    height: 151px;
+    width: 455px;
+    max-width: 455px;
+}
+.widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1 {
+    font-weight: 600;
+}
+.widget-menu .widget-menu-list >.widget-menu-item >.widget-menu-link {
+    padding: 66px 18px 67px;
+}
+.widget-menu .widget-menu-list >.widget-menu-item >.widget-menu-link.two-line-link {
+    padding-top: 48px;
+}
