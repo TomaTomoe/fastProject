@@ -8,7 +8,7 @@
     <meta name="robots" content="noindex, follow" />
     <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
     <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/bootstrap.css"/>
     <link rel="stylesheet" href="assets/css/home.css"/>
@@ -29,7 +29,7 @@
                     <div class="widget widget-row">
                       <div class="container-fluid">
                         <div class="row">
-                          <div class="cell col-sm-9">
+                          <div class="cell col-xs-9">
                             <div class="widget widget-container container_header_logo">
                               <div class="widget widget-row">
                                 <div class="container-fluid">
@@ -46,19 +46,24 @@
                               </div>
                             </div>
                           </div>
-                          <div class="cell col-sm-3">
+                          <div class="cell col-xs-3 visible-xs">
+                            <button type="button" id="openMenu">
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                            </button>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="cell col-sm-8">
+                  <div class="cell col-sm-8" id="menu">
                     <div class="widget widget-row">
                       <div class="container-fluid">
                         <div class="row">
                           <div class="cell col-sm-12">
-                            <div class="widget widget-menu preset-default align-right spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                              <ul class="widget-menu-list widget-menu-list_horizontal nav navbar-nav">
+                            <div class="widget widget-menu preset-default align-right spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                              <ul class="widget-menu-list widget-menu-list_horizontal">
                                 <li class="widget-menu-item">
                                   <a href="/" class="widget-menu-link widget-menu-link-level-1 widget-menu-link-active link">
                                     ГОЛОВНА
@@ -852,6 +857,11 @@
 <script src="assets/js/jquery.stellar.js"></script>
 <script>
   $(window).stellar();
+</script>
+<script>
+  $( "#openMenu" ).click(function() {
+    $( "#menu" ).toggleClass( "open" );
+  });
 </script>
 </body>
 </html>

@@ -309,7 +309,7 @@ nav, section, summary {
 }
 .widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1 {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     color: #ffffff;
     text-decoration: none;
@@ -456,7 +456,7 @@ nav, section, summary {
     font-style: normal;
 }
 .text_system_8 {
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
     color: #ffffff;
@@ -933,7 +933,7 @@ background-repeat: no-repeat;
 }
 .widget-button.preset-4 .widget-button-link {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
     font-style: normal;
     color: #353535;
     background-color: transparent;
