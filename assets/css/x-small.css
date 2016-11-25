@@ -54,3 +54,11 @@
 #menu.open {
   display: block;
 }
+.widget-menu .widget-menu-list >.widget-menu-item {
+   margin: 0;
+}
+.widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1.widget-menu-link-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e48301;
+}
