@@ -1028,3 +1028,21 @@ background-repeat: no-repeat;
     height: 108px;
   }
 }
+a.widget-button-link.size-medium.link.button-orange:hover {
+    background: transparent;
+    border-color: #ffffff;
+}
+a.widget-button-link.size-medium.link.button-orange {
+    background: #e48301;
+    border-color: #e48301;
+}
+a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
