@@ -1032,3 +1032,6 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
     line-height: 1.2;
     letter-spacing: 0px;
 }
+.text_system_4 span {
+    text-transform: uppercase;
+}
