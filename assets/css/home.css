@@ -708,7 +708,7 @@ background-repeat: no-repeat;
 }
 .container_content_h006 {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     margin-left: 0px;
     margin-right: 0px;
     padding-top: 0px;
@@ -1034,4 +1034,71 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
 }
 .text_system_4 span {
     text-transform: uppercase;
+}
+.container_content_h006>.widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+@media (min-width: 768px) {
+  .container_content_h001,
+  .container_content_h002,
+  .container_content_h003 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(33.33333333% - 20px);
+  }
+  .container_content_h001>.widget,
+  .container_content_h002>.widget,
+  .container_content_h003>.widget,
+  .container_content_h004>.widget,
+  .container_content_h005>.widget,
+  .container_content_h006>.widget {
+    height: 30vw;
+    min-height: 350px;
+  }
+  .text_system_5 {
+    font-size: 3.5vw;
+  }
+  .container_content_h001>.widget>.widget-text,
+  .container_content_h002>.widget>.widget-text,
+  .container_content_h003>.widget>.widget-text,
+  .container_content_h004>.widget>.widget-text,
+  .container_content_h005>.widget>.widget-text{
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+  .container_content_h001>.widget .widget-button,
+  .container_content_h002>.widget .widget-button,
+  .container_content_h003>.widget .widget-button,
+  .container_content_h004>.widget .widget-button,
+  .container_content_h005>.widget .widget-button {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  .container_content_h004,
+  .container_content_h005,
+  .container_content_h006 {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(50% - 20px);
+  }
+  .text_108 {
+    font-size: 4vw;
+  }
+  .text_system_15 {
+    font-size: 3vw;
+  }
+  .text_109 {
+    font-size: 7vw;
+  }
+  .text_110 {
+    font-size: 3vw;
+  }
+  .widget-button .widget-button-link {
+    padding: 1vw 4vw 1vw;
+    font-size: 1.2vw;
+  }
 }
