@@ -24,3 +24,7 @@
     -webkit-transform: rotate(200deg);
     transform: rotate(200deg);
 }
+.widget-button .widget-button-link {
+  padding: 11px 24px 10px;
+  font-size: 14px;
+}

@@ -1102,10 +1102,10 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
   .text_110 {
     font-size: 3vw;
   }
-  .widget-button .widget-button-link {
+  /*.widget-button .widget-button-link {
     padding: 1vw 4vw 1vw;
     font-size: 1.5vw;
-  }
+  }*/
   .container_content_h009,
   .container_content_h010 {
     height: 50%;

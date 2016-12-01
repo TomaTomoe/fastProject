@@ -185,7 +185,11 @@
   <div class="back-to-top-button"></div>
   <script src="../assets/js/jquery-1.10.1.js"></script>
   <script src="../assets/js/overscroll.js"></script>
-  <script src="../assets/js/jquery.stellar.js"></script>
+  <script>
+    if (document.body.clientWidth>768){
+      document.write('<script src="../assets/js/jquery.stellar.js"></scr'+'ipt>')
+    }
+  </script>
   <script>
     $(window).stellar();
     $( "#openMenu" ).click(function() {
