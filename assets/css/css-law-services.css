@@ -867,7 +867,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-parallax.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1175,9 +1174,15 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
   .container_footer_h012{
   background-image: url('../images/home-parallax.jpg');
   }
+  .container_content_services_parallax {
+  background-image: url('../images/services-parallax.jpg');
+  }
 }
 @media (max-width: 767px) {
   .container_footer_h012{
   background-image: url('../images/home-parallax-mini.jpg');
+  }
+  .container_content_services_parallax {
+  background-image: url('../images/services-parallax-mini.jpg');
   }
 }
