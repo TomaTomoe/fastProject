@@ -70,7 +70,6 @@ nav, section, summary {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-header1.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -117,7 +116,7 @@ nav, section, summary {
 .row:after {
     clear: both;
 }
-@media screen and (min-width: 767px){
+@media screen and (min-width: 768px){
   .widget-row .container-fluid:after,
   .widget-row .container-fluid:before,
   .widget-block .container-fluid:after,
@@ -125,7 +124,7 @@ nav, section, summary {
       display: block;
   }
 }
-@media screen and (min-width: 767px){
+@media screen and (min-width: 768px){
   .widget-row .row,
   .widget-block .row {
       display: -webkit-box;
@@ -601,7 +600,6 @@ border-top-left-radius: 0px;
 border-top-right-radius: 0px;
 border-bottom-left-radius: 0px;
 border-bottom-right-radius: 0px;
-background-image: url('../images/home-about-us1.jpg');
 background-size: cover;
 background-position: center top;
 background-repeat: no-repeat;
@@ -626,7 +624,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-about-us2.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -651,7 +648,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-about-us3.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -676,7 +672,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-about-us4.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -701,7 +696,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-about-us5.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -768,7 +762,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-news1.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -793,7 +786,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-news2.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -818,7 +810,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-news3.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -864,7 +855,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-parallax.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1041,6 +1031,36 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
     justify-content: center;
 }
 @media (min-width: 768px) {
+  .container_header {
+    background-image: url('../images/home-header1.jpg');
+  }
+  .container_content_h001 {
+    background-image: url('../images/home-about-us1.jpg');
+  }
+  .container_content_h002 {
+    background-image: url('../images/home-about-us2.jpg');
+  }
+  .container_content_h003 {
+  background-image: url('../images/home-about-us3.jpg');
+  }
+  .container_content_h004 {
+  background-image: url('../images/home-about-us4.jpg');
+  }
+  .container_content_h005 {
+  background-image: url('../images/home-about-us5.jpg');
+  }
+  .container_content_h008 {
+  background-image: url('../images/home-news1.jpg');
+  }
+  .container_content_h009{
+  background-image: url('../images/home-news2.jpg');
+  }
+  .container_content_h010{
+  background-image: url('../images/home-news3.jpg');
+  }
+  .container_footer_h012{
+  background-image: url('../images/home-parallax.jpg');
+  }
   .container_content_h001,
   .container_content_h002,
   .container_content_h003 {
@@ -1116,3 +1136,34 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
     justify-content: space-between;
   }
 }
+@media (max-width: 767px) {
+  .container_header {
+    background-image: url('../images/home-header1-mini.jpg');
+  }
+  .container_content_h001 {
+    background-image: url('../images/home-about-us1.jpg');
+  }
+  .container_content_h002 {
+    background-image: url('../images/home-about-us2.jpg');
+  }
+  .container_content_h003 {
+  background-image: url('../images/home-about-us3.jpg');
+  }
+  .container_content_h004 {
+  background-image: url('../images/home-about-us4.jpg');
+  }
+  .container_content_h005 {
+  background-image: url('../images/home-about-us5.jpg');
+  }
+  .container_content_h008 {
+  background-image: url('../images/home-news1.jpg');
+  }
+  .container_content_h009{
+  background-image: url('../images/home-news2.jpg');
+  }
+  .container_content_h010{
+  background-image: url('../images/home-news3.jpg');
+  }
+  .container_footer_h012{
+  background-image: url('../images/home-parallax-mini.jpg');
+  }

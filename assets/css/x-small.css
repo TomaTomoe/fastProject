@@ -14,7 +14,7 @@
     border: none;
     outline: none;
     float: right;
-    margin: 43px 20px;
+    padding: 43px 20px;
 }
 .container_subheader button .icon-bar {
     display: block;
