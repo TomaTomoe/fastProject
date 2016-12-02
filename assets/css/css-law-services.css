@@ -71,7 +71,6 @@ header#section-header {
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/home-header1.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1094,7 +1093,6 @@ background-repeat: no-repeat;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 0px;
     border-bottom-right-radius: 0px;
-    background-image: url('../images/services-parallax.jpg');
     background-size: cover;
     background-position: center top;
     background-repeat: no-repeat;
@@ -1169,4 +1167,17 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
     font-size: 18px;
     line-height: 1.2;
     letter-spacing: 0px;
+}
+@media (min-width: 768px) {
+  .container_header {
+    background-image: url('../images/home-header1.jpg');
+  }
+  .container_footer_h012{
+  background-image: url('../images/home-parallax.jpg');
+  }
+}
+@media (max-width: 767px) {
+  .container_footer_h012{
+  background-image: url('../images/home-parallax-mini.jpg');
+  }
 }
