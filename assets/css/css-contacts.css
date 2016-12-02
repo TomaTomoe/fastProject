@@ -360,7 +360,7 @@ header#section-header {
     display: block;
 }
 .widget-menu.preset-default .widget-menu-sublist .widget-menu-item .widget-menu-link {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-style: normal;
     color: #f8f8f8;
@@ -916,7 +916,7 @@ background-repeat: no-repeat;
 }
 .widget-button.preset-default .widget-button-link {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-style: normal;
     color: #ffffff;
     background-color: transparent;

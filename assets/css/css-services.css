@@ -917,7 +917,7 @@ background-repeat: no-repeat;
 }
 .widget-button.preset-default .widget-button-link {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-style: normal;
     color: #ffffff;
     background-color: transparent;
@@ -1063,7 +1063,7 @@ background-repeat: no-repeat;
 }
 .widget-button.preset-2 .widget-button-link {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 800;
+    font-weight: 600;
     font-style: normal;
     color: #353535;
     background-color: transparent;
