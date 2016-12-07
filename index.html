@@ -344,14 +344,14 @@
               <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
                 <div class="widget-text-content widget-text-editable">
                   <p class="text_system_6" style="text-align: center;">
-                    What we do<br>
+                    Зв'яжіться з нами<br>
                   </p>
                 </div>
               </div>
               <div class="widget widget-text preset-default spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
                 <div class="widget-text-content widget-text-editable">
                   <p class="text_system_9" style="text-align: center;">
-                    We grow only natural, nutritious products for your health<br>
+                    Задавайте питання чи замовляйте послуги<br>
                   </p>
                 </div>
               </div>
@@ -362,95 +362,68 @@
       <div class="widget widget-row row-fixed">
         <div class="container-fluid">
           <div class="row">
-            <div class="cell col-sm-4">
-              <div class="widget widget-image preset-default align-center spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto  ">
-                <div class="widget-image-link">
-                  <img src="assets/images/home-what-we-do1.png" class="widget-image-picture" title=""  alt="" draggable="false">
-                </div>
+            <div class="col-sm-12">
+                <!-- Сообщение, отображаемое в случае успешной отправки данных -->
+              <div class="alert alert-success hidden" role="alert" id="successMessage">
+                <strong>Увага!</strong> Ваше повідомлення надіслано успішно.
               </div>
-              <div class="widget widget-text preset-default   spacing-top-small spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7">
-                    <a class="link" href="#" target="_self">
-                      What we offer
-                    </a><br>
-                  </p>
+              <!-- Форма обратной связи -->
+              <form id="contactForm">
+                <div>
+                  <div id="error"  class="row" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
+                  <!-- Имя и email пользователя -->
+                  <div  class="row">
+                    <!-- Имя пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="name" class="control-label">Ім'я:*</label>
+                      <input type="text" id="name" name="name" class="form-control user-input" required="required" value="" placeholder="Ім'я:*" minlength="2" maxlength="30">
+                      <span class="glyphicon form-control-feedback"></span>
+                    </div>
+                  </div>
+                  <div  class="row">
+                    <!-- Email пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="email" class="control-label">Email:*</label>
+                      <input type="email" id="email" name="email" class="form-control user-input" required="required"  value="" placeholder="Email:*" maxlength="30">
+                      <span class="glyphicon form-control-feedback"></span>
+                    </div>
+                  </div>
+                  <div  class="row">
+                    <!-- phone пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="email" class="control-label">Телефон:</label>
+                      <input type="email" id="email" name="email" class="form-control user-input" required="required"  value="" placeholder="Телефон:" maxlength="30">
+                      <span class="glyphicon form-control-feedback"></span>
+                    </div>
+                  </div>
                 </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">
-                    We offer a wide range of vegetable products and canned vegetables. Fresh vegetables that we grow for our consumers are potatoes, onions, carrots, beets, cabbage, eggplant, peppers, zucchini, etc.<br>
-                  </p>
+                <!-- Сообщение пользователя -->
+                <div class="form-group has-feedback">
+                  <label for="message" class="control-label">Повідомлення:*</label>
+                  <textarea id="message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
                 </div>
-              </div>
-            </div>
-            <div class="cell col-sm-4">
-              <div class="widget widget-image preset-default align-center spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto  ">
-                <div class="widget-image-link">
-                  <img src="assets/images/home-what-we-do2.png" class="widget-image-picture" title=""  alt="" draggable="false">
+                <hr>
+                <!-- Изображение, содержащее код капчи -->
+  	            <img id="img-captcha" src="/feedback/captcha.php">
+                <!-- Элемент, обновляющий код капчи -->
+  	            <div id="reload-captcha" class="refresh-captcha"><i class="glyphicon glyphicon-refresh"></i> Обновити</div>
+  	            <!-- Блок для ввода кода капчи -->
+  	            <div class="form-group has-feedback">
+                  <label id="label-captcha" for="captcha" class="control-label captcha-here">Будь-ласка, введіть вказаний на зображенні код:</label>
+  	              <input id="text-captcha" name="captcha" type="text" class="form-control" required="required" value="" autocomplete="off" minlength="6" maxlength="6">
+  	              <span class="glyphicon form-control-feedback"></span>
                 </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-small spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7">
-                    <a class="link" href="#" target="_self">
-                      Advanced technology
-                    </a><br>
-                  </p>
+                <!-- Кнопка, отправляющая форму -->
+                <div class="button-inside">
+                  <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
                 </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">
-                    The use of advanced technologies allows you to engage in industrial quantities of product that reduces its cost. In general, vegetable growing and processing of vegetables is labour-intensive industry.<br>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="cell col-sm-4">
-              <div class="widget widget-image preset-default align-center spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto  ">
-                <div class="widget-image-link">
-                  <img src="assets/images/home-what-we-do3.png" class="widget-image-picture" title=""  alt="" draggable="false">
-                </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-small spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7">
-                    <a class="link" href="#" target="_self">
-                      Strive for you
-                    </a><br>
-                  </p>
-                </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">
-                    Today we are a modern company, supplier of vegetables with excellent reputation, whose products had earned the loyalty of consumers and is represented in most retail networks.
-                  </p>
-                  <p class="text_normal">
-                    Every day we work to deliver exclusively fresh.<br>
-                  </p>
-                </div>
-              </div>
+              </form><!-- Конец формы -->
             </div>
           </div>
         </div>
       </div>
-      <div class="widget widget-row row-fixed">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="cell col-sm-12">
-              <div class="widget widget-button preset-4 align-center spacing-top-large spacing-right-auto spacing-bottom-large spacing-left-auto  ">
-                <a href="#" class="widget-button-link size-medium link">
-                  <span class="fa widget-theme-icon"></span>
-                  <span class="widget-button-label">
-                    VIEW OUR SERVICES
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
+      <div class="widget widget-spacer preset-default spacing-top-medium spacing-right-auto spacing-bottom-medium spacing-left-auto">
+        <div class="widget-spacer-block" style="height: 0px;">
         </div>
       </div>
       <div class="widget widget-row">
@@ -473,14 +446,14 @@
                 <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
                   <div class="widget-text-content widget-text-editable">
                     <p class="text_system_6" style="text-align: center;">
-                      News &amp; articles
+                      Новини &amp; закони
                     </p>
                   </div>
                 </div>
                 <div class="widget widget-text preset-default   spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto">
                   <div class="widget-text-content widget-text-editable">
                     <p class="text_system_9" style="text-align: center;">
-                      Keep your finger on the pulse of events, follow our news<br>
+                      Будьте в курсі останніх новин та законопроектів<br>
                     </p>
                   </div>
                 </div>
@@ -790,6 +763,7 @@
 </footer>
 <div class="back-to-top-button"></div>
 <script src="assets/js/jquery-1.10.1.js"></script>
+<!-- <script src="feedback/js/jquery-3.1.0.min.js"></script> -->
 <script src="assets/js/overscroll.js"></script>
 <script>
   if (document.body.clientWidth>768){
