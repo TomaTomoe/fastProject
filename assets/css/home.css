@@ -1168,3 +1168,111 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
   background-image: url('../images/home-parallax-mini.jpg');
   }
 }
+label.control-label {
+    display: none;
+}
+label.control-label.captcha-here {
+  display: block;
+}
+.user-input {
+  display: block;
+  width: 100%;
+  font-size: 17px;
+  padding: 18px 23px;
+  line-height: 23px;
+  border: 1px solid;
+  height: 100%;
+  color: #353535;
+  background-color: #f8f8f8;
+  font-style: normal;
+  font-weight: 400;
+  border-color: transparent;
+}
+#contactForm .form-group {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#contactForm .row {
+  margin-left: 0;
+  margin-right: 0;
+}
+#contactForm .button-inside {
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+#contactForm .button-inside button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #353535;
+  background-color: transparent;
+  border-color: #353535;
+  padding: 16px 22px 15px;
+  text-align: center;
+  border: 2px solid;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  line-height: 1;
+  font-size: 18px;
+}
+#contactForm .button-inside button:hover {
+  color: #ffffff;
+  background-color: #e48301;
+  border-color: #e48301;
+}
+::-webkit-input-placeholder {
+  color: #353535;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+::-moz-placeholder          {
+  color: #353535;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  }/* Firefox 19+ */
+:-moz-placeholder           {
+  color: #353535;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+  }/* Firefox 18- */
+:-ms-input-placeholder      {
+  color: #353535;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: 'Open Sans', sans-serif;
+}
+.refresh-captcha {
+  width: 190px;
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: #353535;
+  background-color: transparent;
+  border-color: #353535;
+  padding: 16px 22px 15px;
+  text-align: center;
+  border: 2px solid;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  line-height: 1.3;
+  font-size: 15px;
+  height: 53px;
+}
+i.glyphicon-refresh:before {
+    content: ' ';
+    padding: 5px 15px;
+    margin-right: 10px;
+    background-image: url("../images/reload.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
