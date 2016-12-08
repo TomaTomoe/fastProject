@@ -16,6 +16,7 @@
     <link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1199px)" href="assets/css/medium.css">
     <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="assets/css/small.css">
     <link rel="stylesheet" media="all and (max-width: 767px)" href="assets/css/x-small.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
   </head>
   <body class="background">
     <div class="page">
@@ -392,7 +393,7 @@
                     <!-- phone пользователя -->
                     <div class="form-group has-feedback">
                       <label for="email" class="control-label">Телефон:</label>
-                      <input type="email" id="email" name="email" class="form-control user-input" required="required"  value="" placeholder="Телефон:" maxlength="30">
+                      <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
                       <span class="glyphicon form-control-feedback"></span>
                     </div>
                   </div>
@@ -402,17 +403,7 @@
                   <label for="message" class="control-label">Повідомлення:*</label>
                   <textarea id="message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
                 </div>
-                <hr>
-                <!-- Изображение, содержащее код капчи -->
-  	            <img id="img-captcha" src="/feedback/captcha.php">
-                <!-- Элемент, обновляющий код капчи -->
-  	            <div id="reload-captcha" class="refresh-captcha"><i class="glyphicon glyphicon-refresh"></i> Обновити</div>
-  	            <!-- Блок для ввода кода капчи -->
-  	            <div class="form-group has-feedback">
-                  <label id="label-captcha" for="captcha" class="control-label captcha-here">Будь-ласка, введіть вказаний на зображенні код:</label>
-  	              <input id="text-captcha" name="captcha" type="text" class="form-control" required="required" value="" autocomplete="off" minlength="6" maxlength="6">
-  	              <span class="glyphicon form-control-feedback"></span>
-                </div>
+                <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div>
                 <!-- Кнопка, отправляющая форму -->
                 <div class="button-inside">
                   <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
