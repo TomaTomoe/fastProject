@@ -451,6 +451,8 @@ header#section-header {
     font-size: 30px;
     line-height: 1.2;
     letter-spacing: -1px;
+    text-align: center;
+    padding-bottom: 25px;
 }
 .text_system_7 a {
     color: #353535;
@@ -1185,4 +1187,7 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
   .container_content_services_parallax {
   background-image: url('../images/services-parallax-mini.jpg');
   }
+}
+ul {
+    list-style: none;
 }
