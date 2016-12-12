@@ -1007,6 +1007,7 @@ background-repeat: no-repeat;
 a.widget-button-link.size-medium.link.button-orange:hover {
     background: transparent;
     border-color: #ffffff;
+    color: #fff;
 }
 a.widget-button-link.size-medium.link.button-orange {
     background: #e48301;
@@ -1209,7 +1210,7 @@ label.control-label.captcha-here {
   color: #353535;
   background-color: transparent;
   border-color: #353535;
-  padding: 16px 22px 15px;
+  padding: 16px 60px 15px;
   text-align: center;
   border: 2px solid;
   -webkit-transition: all .3s ease;
@@ -1279,4 +1280,8 @@ i.glyphicon-refresh:before {
 }
 .g-recaptcha {
     text-align: -webkit-center;
+}
+.widget-button.preset-default .widget-button-link:hover {
+    color: #000000;
+    background: #ffffff;
 }
