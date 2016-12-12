@@ -79,33 +79,33 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     } else {
       $data['result']='error';
     }
-
-    //2. Отправляем на почту
-    // включить файл PHPMailerAutoload.php
-    require_once dirname(__FILE__) . '/phpmailer/PHPMailerAutoload.php';
-    //формируем тело письма
-    $output = "Дата: " . date("d-m-Y H:i") . "\n";
-    $output .= "Ім'я користувача: " . $name . "\n";
-    $output .= "Телефон користувача: " . $tel . "\n";
-    $output .= "Адреса email: " . $email . "\n";
-    $output .= "Повідомлення: " . $message . "\n";
-
-    // создаём экземпляр класса PHPMailer
-    $mail = new PHPMailer;
-
-    $mail->CharSet = 'UTF-8';
-    $mail->From      = 'email@szk.ua';
-    $mail->FromName  = 'Сумський земельний кадастр';
-    $mail->Subject   = 'Повідомлення від форми зворотного зв\'язку'';
-    $mail->Body      = $output;
-    $mail->AddAddress( 'denysiuk.tina@gmail.com' );
-
-    // отправляем письмо
-    if ($mail->Send()) {
-      $data['result']='success';
-    } else {
-      $data['result']='error';
-    }
+    //
+    // //2. Отправляем на почту
+    // // включить файл PHPMailerAutoload.php
+    // require_once dirname(__FILE__) . '/phpmailer/PHPMailerAutoload.php';
+    // //формируем тело письма
+    // $output = "Дата: " . date("d-m-Y H:i") . "\n";
+    // $output .= "Ім'я користувача: " . $name . "\n";
+    // $output .= "Телефон користувача: " . $tel . "\n";
+    // $output .= "Адреса email: " . $email . "\n";
+    // $output .= "Повідомлення: " . $message . "\n";
+    //
+    // // создаём экземпляр класса PHPMailer
+    // $mail = new PHPMailer;
+    //
+    // $mail->CharSet = 'UTF-8';
+    // $mail->From      = 'email@szk.ua';
+    // $mail->FromName  = 'Сумський земельний кадастр';
+    // $mail->Subject   = 'Повідомлення від форми зворотного зв\'язку'';
+    // $mail->Body      = $output;
+    // $mail->AddAddress( 'denysiuk.tina@gmail.com' );
+    //
+    // // отправляем письмо
+    // if ($mail->Send()) {
+    //   $data['result']='success';
+    // } else {
+    //   $data['result']='error';
+    // }
 
   }
   // формируем ответ, который отправим клиенту
