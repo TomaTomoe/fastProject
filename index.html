@@ -16,7 +16,7 @@
     <link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1199px)" href="assets/css/medium.css">
     <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="assets/css/small.css">
     <link rel="stylesheet" media="all and (max-width: 767px)" href="assets/css/x-small.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
   </head>
   <body class="background">
     <div class="page">
@@ -392,7 +392,7 @@
                   <div  class="row">
                     <!-- phone пользователя -->
                     <div class="form-group has-feedback">
-                      <label for="email" class="control-label">Телефон:</label>
+                      <label for="email" class="control-label">Телефон:*</label>
                       <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
                       <span class="glyphicon form-control-feedback"></span>
                     </div>
@@ -404,7 +404,7 @@
                   <textarea id="message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
                 </div>
                 <!-- <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div> --> <!-- for szk.ua -->
-                <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> <!-- for szk.esy.es -->
+                <!-- <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> --> <!-- for szk.esy.es -->
                 <!-- Кнопка, отправляющая форму -->
                 <div class="button-inside">
                   <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
@@ -755,7 +755,6 @@
 </footer>
 <div class="back-to-top-button"></div>
 <script src="assets/js/jquery-1.10.1.js"></script>
-<script src="/feedback/js/bootstrap.min.js"></script>
 <script>
   if (document.body.clientWidth>768){
     document.write('<script src="/assets/js/jquery.stellar.js"></scr'+'ipt>')
