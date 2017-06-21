@@ -447,7 +447,7 @@ header#section-header {
     font-weight: 400;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
-    color: #353535;
+    color: #ffffff;
     font-size: 30px;
     line-height: 1.2;
     letter-spacing: -1px;
@@ -1056,6 +1056,16 @@ background-repeat: no-repeat;
     font-weight: 400;
     font-style: normal;
     font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 17px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+    list-style: none;
+}
+.text_normal_dark {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
     color: #353535;
     font-size: 17px;
     line-height: 1.7;
@@ -1108,6 +1118,11 @@ background-repeat: no-repeat;
     font-weight: 400;
     font-style: normal;
     cursor: pointer;
+}
+#content {
+  background: url(../images/law-background2.jpg);
+    background-size: cover;
+    background-position-y: center;
 }
 #content .ajax-content p, #content .ajax-content ul li {
     font-weight: 400;
