@@ -1,0 +1,101 @@
+.container_header_logo img.widget-image-picture {
+    height: 100px;
+    width: 302px;
+    max-width: 302px;
+}
+.container_header_logo .widget-image-link {
+    float:left;
+}
+.container_subheader>.widget-row>.container-fluid>.row>.cell.col-sm-4 {
+  background-color: #e48301;
+}
+.container_subheader button {
+    background: transparent;
+    border: none;
+    outline: none;
+    float: right;
+    padding: 43px 20px;
+}
+.container_subheader button .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #ffffff;
+}
+.container_subheader button .icon-bar+.icon-bar {
+    margin-top: 4px;
+}
+.widget-menu .widget-menu-list .widget-menu-item {
+    display: block;
+}
+.widget-menu .widget-menu-list >.widget-menu-item:after{
+  content: none;
+}
+.widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1 {
+  font-weight: 500;
+}
+.widget-menu .widget-menu-list >.widget-menu-item >.widget-menu-link {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 15px 18px 15px;
+}
+.widget-menu .widget-menu-list >.widget-menu-item >.widget-menu-link.two-line-link {
+  padding-top: 15px;
+}
+.widget-menu .widget-menu-list {
+  background-color: #353535;
+  padding: 15px;
+}
+#menu {
+  display: none;
+  transition: all ease .5s;
+}
+#menu.open {
+  display: block;
+}
+.widget-menu .widget-menu-list >.widget-menu-item {
+   margin: 0;
+}
+.widget-menu.preset-default .widget-menu-list .widget-menu-item .widget-menu-link-level-1.widget-menu-link-active {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #e48301;
+}
+.text_system_3,
+.text_system_4,
+.text_system_5,
+.text_system_6,
+.text_system_13,
+.text_system_15,
+.text_108 {
+  font-size: 28px;
+  font-weight: 400;
+}
+.text_system_12,
+.text_114 {
+  font-size: 14px;
+}
+.text_109 {
+  font-size: 60px;
+}
+.text_110 {
+  font-size: 36px;
+}
+.container_subheader {
+  position: absolute;
+  top: 0;
+}
+.widget-button.preset-default .widget-button-link {
+  font-weight: 400;
+}
+.widget-button .widget-button-link {
+  padding: 16px 40px 15px;
+}
+.conteiner_for_two {
+  padding-left: 0;
+  padding-right: 0;
+}
+body {
+  min-width: 360px;
+}
