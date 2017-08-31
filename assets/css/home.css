@@ -1031,9 +1031,16 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
     flex-direction: column;
     justify-content: center;
 }
+#section-header {
+    height: 100vh;
+}
 @media (min-width: 768px) {
   .container_header {
     background-image: url('../images/home-header1.jpg');
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .container_content_h001 {
     background-image: url('../images/home-about-us1.jpg');
