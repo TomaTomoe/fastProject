@@ -1,97 +1,97 @@
 <!DOCTYPE html>
 <html lang="en" data-ng-app="website">
+
 <head>
   <meta charset="utf-8">
   <title>Services</title>
-  <link rel="SHORTCUT ICON" href="../favicon.ico" type="vnd.microsoft.icon" />
   <meta name="keywords" content="home, mainpage, index" />
   <meta name="robots" content="noindex, follow" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600&amp;subset=cyrillic-ext" rel="stylesheet">
   <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
-  <link rel="stylesheet" href="../assets/css/css-services.css"/>
+  <link rel="stylesheet" href="../assets/css/bootstrap.css" />
+  <link rel="stylesheet" href="../assets/css/css-services.css" />
+  <link rel="stylesheet" href="../assets/css/perfect-scrollbar.css" />
   <link rel="stylesheet" media="all and (min-width: 1200px)" href="../assets/css/large.css">
   <link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1199px)" href="../assets/css/medium.css">
   <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="../assets/css/small.css">
   <link rel="stylesheet" media="all and (max-width: 767px)" href="../assets/css/x-small.css">
 
 </head>
-<body class="background" onload="loadPage()">
-  <div class="page">
-    <header id="section-header" class="header section">
-      <div class="widget widget-container container_header">
-        <div id="hat" class="widget widget-container container_subheader">
-          <div class="widget widget-row row-gutter-0">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="cell col-sm-4">
-                  <div class="widget widget-row">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="cell col-xs-9">
-                          <div class="widget widget-container container_header_logo">
-                            <div class="widget widget-row">
-                              <div class="container-fluid">
-                                <div class="row">
-                                  <div class="cell col-sm-12">
-                                    <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                                      <a class="widget-image-link link" href="#">
+
+<body id="scroll" class="background" onload="loadPage()">
+  <header id="section-header" class="header section">
+    <div class="widget widget-container container_header">
+      <div id="hat" class="widget widget-container container_subheader">
+        <div class="widget widget-row row-gutter-0">
+          <div class="container-fluid">
+            <div class="row">
+              <div class="cell col-sm-4">
+                <div class="widget widget-row">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="cell col-xs-9">
+                        <div class="widget widget-container container_header_logo">
+                          <div class="widget widget-row">
+                            <div class="container-fluid">
+                              <div class="row">
+                                <div class="cell col-sm-12">
+                                  <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                                    <a class="widget-image-link link" href="/">
                                         <img src="/assets/images/home-logo1.png" class="widget-image-picture" title=""  alt="" draggable="false">
                                       </a>
-                                    </div>
                                   </div>
                                 </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <div class="cell col-xs-3 visible-xs">
-                          <button type="button" id="openMenu">
+                      </div>
+                      <div class="cell col-xs-3 visible-xs">
+                        <button type="button" id="openMenu">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                           </button>
-                        </div>
                       </div>
                     </div>
                   </div>
                 </div>
-                <div class="cell col-sm-8" id="menu">
-                  <div class="widget widget-row">
-                    <div class="container-fluid">
-                      <div class="row">
-                        <div class="cell col-sm-12">
-                          <div class="widget widget-menu preset-default align-right spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                            <ul class="widget-menu-list widget-menu-list_horizontal">
-                              <li class="widget-menu-item">
-                                <a href="/" class="widget-menu-link widget-menu-link-level-1 link">
+              </div>
+              <div class="cell col-sm-8" id="menu">
+                <div class="widget widget-row">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="cell col-sm-12">
+                        <div class="widget widget-menu preset-default align-right spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                          <ul class="widget-menu-list widget-menu-list_horizontal">
+                            <li class="widget-menu-item">
+                              <a href="/" class="widget-menu-link widget-menu-link-level-1 link">
                                   ГОЛОВНА
                                 </a>
-                              </li>
-                              <li class="widget-menu-item">
-                                <a href="/services/" class="widget-menu-link widget-menu-link-level-1 link two-line-link widget-menu-link-active">
+                            </li>
+                            <li class="widget-menu-item">
+                              <a href="/services/" class="widget-menu-link widget-menu-link-level-1 link two-line-link widget-menu-link-active">
                                   ЗЕМЕЛЬНІ</br>ПОСЛУГИ
                                 </a>
-                              </li>
-                              <li class="widget-menu-item">
-                                <a href="/law-services/" class="widget-menu-link widget-menu-link-level-1 link two-line-link">
+                            </li>
+                            <li class="widget-menu-item">
+                              <a href="/law-services/" class="widget-menu-link widget-menu-link-level-1 link two-line-link">
                                   ЮРИДИЧНІ</br>ПОСЛУГИ
                                 </a>
-                              </li>
-                              <!-- <li class="widget-menu-item">
+                            </li>
+                            <!-- <li class="widget-menu-item">
                                 <a href="/news/" class="widget-menu-link widget-menu-link-level-1 link">
                                   НОВИНИ
                                 </a>
                               </li> -->
-                              <li class="widget-menu-item">
-                                <a href="/contacts/" class="widget-menu-link widget-menu-link-level-1 link">
+                            <li class="widget-menu-item">
+                              <a href="/contacts/" class="widget-menu-link widget-menu-link-level-1 link">
                                   КОНТАКТИ
                                 </a>
-                              </li>
-                            </ul>
-                          </div>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
@@ -102,344 +102,161 @@
           </div>
         </div>
       </div>
-    </header>
-    <section id="section-content" class="content page-3 section">
-      <div class="widget widget-row">
+    </div>
+  </header>
+  <section id="section-content" class="content page-3 section">
+    <div>
+      <div class="widget widget-row row-fixed">
         <div class="container-fluid">
           <div class="row">
             <div class="cell col-sm-12">
-              <div class="widget widget-spacer preset-default spacing-top-small spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;"></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div id="content">
-        <div class="widget widget-row row-fixed">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cell col-sm-12">
-                <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_system_6" style="text-align: center;">Розробка всіх видів землевпорядної документації</p>
-                  </div>
-                </div>
-                <div class="widget widget-text preset-default spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_system_9" style="text-align: center;">Виконуємо землевпорядні роботи всіх категорій складності<br></p>
-                  </div>
+              <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
+                <div class="widget-text-content">
+                  <p class="text_system_6" style="text-align: center;">Розробка всіх видів землевпорядної документації</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-        <div class="widget widget-row container_content_h101">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cell col-sm-12">
-                <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_system_16" style="text-align: center;">Аби ви одразу могли отримати предметну, а не лише абстрактну допомогу, нагадуємо, про документи, що можуть вам знадобитися</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="widget widget-row row-fixed container_content_h101">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cell col-sm-4">
-                <div class="widget widget-row row-gutter-0">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="cell col-xs-4">
-                        <div class="widget widget-container container_content_number">
-                          <div class="widget widget-text preset-default wow fadeIn spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                            <div class="widget-text-content widget-text-editable">
-                              <p class="text_127" style="text-align: center;">1.<br></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="cell col-xs-8">
-                        <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeIn">
-                          <div class="widget-text-content widget-text-editable">
-                            <p class="text_system_7">
-                              <a class="link" href="#" target="_self">Фіз. особам:</a><br>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-large fadeInUp">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">Посвідчення особи,<br>Ідентифікаційний код,<br>Державний акт,<br> Технічний паспорт.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="cell col-sm-4">
-                <div class="widget widget-row row-gutter-0">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="cell col-xs-4">
-                        <div class="widget widget-container container_content_number">
-                          <div class="widget widget-text preset-default wow fadeIn spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                            <div class="widget-text-content widget-text-editable">
-                              <p class="text_127" style="text-align: center;">2.<br></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="cell col-xs-8">
-                        <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeIn">
-                          <div class="widget-text-content widget-text-editable">
-                            <p class="text_system_7">
-                              <a class="link" href="#" target="_self">Юр. особам:</a>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-large fadeInUp">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">Свідотство про реєстрацію,<br>Правовстановлюючі документи на власність.</p>
-                  </div>
-                </div>
-              </div>
-              <div class="cell col-sm-4">
-                <div class="widget widget-row row-gutter-0">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="cell col-xs-4">
-                        <div class="widget widget-container container_content_number">
-                          <div class="widget widget-text preset-default wow fadeIn spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                            <div class="widget-text-content widget-text-editable">
-                              <p class="text_127" style="text-align: center;">3.<br></p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="cell col-xs-8">
-                        <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeIn">
-                          <div class="widget-text-content widget-text-editable">
-                            <p class="text_system_7">
-                              <a class="link" href="#" target="_self">Запитання?</a><br>
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="widget widget-text preset-default wow fadeInUp spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-large">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">Якщо у вас виникли питання - зателефонуйте чи напишіть нам і ми з радістю надамо вам свою допомогу.<br></p>
-                  </div>
+              <div class="widget widget-text preset-default spacing-top-auto spacing-right-auto spacing-left-auto">
+                <div class="widget-text-content">
+                  <p class="text_system_9" style="text-align: center;">Виконуємо землевпорядні роботи всіх категорій складності<br></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="widget widget-container parallax container_content_services_parallax" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%">
-        <div class="widget widget-spacer preset-default spacing-top-small spacing-right-auto spacing-bottom-auto spacing-left-auto">
-          <div class="widget-spacer-block" style="height: 0px;"></div>
-        </div>
-        <div class="widget widget-row row-fixed">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cell col-sm-12">
-                <div class="widget widget-text preset-default wow fadeInLeft spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_system_5" style="text-align: center;">Перелік послуг</p>
-                  </div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_system_9" style="text-align: center;">
-                      <span class="color5_4">Оберіть послугу і дізнайтеся більше</span><br>
-                    </p>
-                  </div>
+      <div  id="content" class="widget widget-row">
+      </div>
+      <div class="widget widget-row container_content_h101">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="cell col-sm-12">
+              <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-medium spacing-left-auto">
+                <div class="widget-text-content">
+                  <p class="text_system_16" style="text-align: center;">Аби ви одразу могли отримати предметну, а не лише абстрактну допомогу, нагадуємо, про документи, що можуть вам знадобитися</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="widget widget-row row-fixed">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="cell col-sm-4">
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">
-                      <span class="color5_4"><strong>&gt;</strong></span>&nbsp;&nbsp;<span class="color5_4"><a class="link service-description" target="_self" id="s001">Топографо-геодезичні роботи та картографічні роботи</a></span><br>
-                    </p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">
-                      <span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s002">Інвентаризація земель усіх категорій</a><br>
-                    </p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">
-                      <strong><span class="color5_4">&gt;</span><span class="color1_3">&nbsp;&nbsp;</span></strong><a class="link service-description" target="_self" id="s003">Земельно-оціночні роботи</a><br>
-                    </p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">
-                      <span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s004">Оформлення документів на землю для реєстрації</a><br>
-                    </p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal">
-                      <span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong> </strong></span><a class="link service-description" target="_self" id="s005">Присвоєння кадастрових номерів земельним ділянкам</a><br>
-                    </p>
-                  </div>
-                </div>
-				<div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s006">Підготовка пакету документів для укладення договорів оренди на земельні частки (паї та землі ОСГ)</a><br></p>
+      </div>
+      <div class="widget widget-row row-fixed container_content_h101">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="cell col-sm-4">
+              <div class="widget widget-row row-gutter-0">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="cell col-xs-4">
+                      <div class="widget widget-container container_content_number">
+                        <div class="widget widget-text preset-default wow fadeIn spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                          <div class="widget-text-content">
+                            <p class="text_127" style="text-align: center;">1.<br></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cell col-xs-8">
+                      <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeIn">
+                        <div class="widget-text-content">
+                          <p class="text_system_7">
+                            <a class="link" href="#" target="_self">Фіз. особам:</a><br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="cell col-sm-4">
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
+              <div class="widget widget-text preset-default wow spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-large fadeInUp">
+                <div class="widget-text-content">
+                  <p class="text_normal">Посвідчення особи,<br>Ідентифікаційний код,<br>Державний акт,<br> Технічний паспорт.</p>
                 </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s007">Проекти щодо приватизації земель</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s008">Організація території земельних часток (паїв)</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s009">Відведення земельних ділянок та зміна цільового призначення</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s010">Поділ та об'єднання земельних ділянок</a><br></p>
-                  </div>
-                </div>
-				<div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s011">Встановлення (відновлення) меж земельної ділянки в натурі (на місцевості)</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s012">Надання консультацій щодо вирішення земельних спорів</a><br></p>
+              </div>
+            </div>
+            <div class="cell col-sm-4">
+              <div class="widget widget-row row-gutter-0">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="cell col-xs-4">
+                      <div class="widget widget-container container_content_number">
+                        <div class="widget widget-text preset-default wow fadeIn spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                          <div class="widget-text-content">
+                            <p class="text_127" style="text-align: center;">2.<br></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cell col-xs-8">
+                      <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeIn">
+                        <div class="widget-text-content">
+                          <p class="text_system_7">
+                            <a class="link" href="#" target="_self">Юр. особам:</a>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div class="cell col-sm-4">
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
+              <div class="widget widget-text preset-default wow spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-large fadeInUp">
+                <div class="widget-text-content">
+                  <p class="text_normal">Свідотство про реєстрацію,<br>Правовстановлюючі документи на власність.</p>
                 </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s013">Еколого-економічне обґрунтування сівозміни та впорядкування угідь</a><br></p>
+              </div>
+            </div>
+            <div class="cell col-sm-4">
+              <div class="widget widget-row row-gutter-0">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="cell col-xs-4">
+                      <div class="widget widget-container container_content_number">
+                        <div class="widget widget-text preset-default wow fadeIn spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                          <div class="widget-text-content">
+                            <p class="text_127" style="text-align: center;">3.<br></p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="cell col-xs-8">
+                      <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeIn">
+                        <div class="widget-text-content">
+                          <p class="text_system_7">
+                            <a class="link" href="#" target="_self">Запитання?</a><br>
+                          </p>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s014">Впорядкування території населених пунктів</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-                <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s015">Організація і встановлення меж територій в залежності від категорії</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
-                </div>
-				<div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
-                  <div class="widget-text-content widget-text-editable">
-                    <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s016">Схеми землеустрою і техніко-економічні обґрунтування використання та охорони земель адміністративно-територіальних одиниць</a><br></p>
-                  </div>
-                </div>
-                <div class="widget widget-spacer preset-default">
-                  <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow fadeInUp spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-large">
+                <div class="widget-text-content">
+                  <p class="text_normal">Якщо у вас виникли питання - зателефонуйте чи напишіть нам і ми з радістю надамо вам свою допомогу.<br></p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="widget widget-spacer preset-default spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto">
-          <div class="widget-spacer-block" style="height: 0px;"></div>
-        </div>
+      </div>
+    </div>
+    <div class="widget widget-container parallax container_content_services_parallax">
+      <div class="widget widget-spacer preset-default spacing-top-small spacing-right-auto spacing-bottom-auto spacing-left-auto">
+        <div class="widget-spacer-block" style="height: 0px;"></div>
       </div>
       <div class="widget widget-row row-fixed">
         <div class="container-fluid">
           <div class="row">
             <div class="cell col-sm-12">
-              <div class="widget widget-text preset-default wow fadeInLeft spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_6" style="text-align: center;">Частки(паї) та ОСГ</p>
+              <div class="widget widget-text preset-default wow fadeInLeft spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
+                <div class="widget-text-content">
+                  <p class="text_system_5" style="text-align: center;">Перелік послуг</p>
                 </div>
               </div>
-              <div data-animation="fadeInLeft" class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_9" style="text-align: center;">We conduct regular surveys of the quality of our production<br></p>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_system_9" style="text-align: center;">
+                    <span class="color5_4">Оберіть послугу і дізнайтеся більше</span><br>
+                  </p>
                 </div>
               </div>
             </div>
@@ -449,95 +266,148 @@
       <div class="widget widget-row row-fixed">
         <div class="container-fluid">
           <div class="row">
-            <div class="cell col-sm-3">
-              <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
-                <div class="widget-image-link">
-                  <img src="../assets/images/services_research1.jpg" class="widget-image-picture" title=""  alt="" draggable="false">
+            <div class="cell col-sm-4">
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal">
+                    <span class="color5_4"><strong>&gt;</strong></span>&nbsp;&nbsp;<span class="color5_4"><a class="link service-description" target="_self" id="s001" onclick="scrollWin()">Топографо-геодезичні роботи та картографічні роботи</a></span><br>
+                  </p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal">
+                    <span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s002" onclick="scrollWin()">Інвентаризація земель усіх категорій</a><br>
+                  </p>
                 </div>
               </div>
               <div class="widget widget-spacer preset-default">
-                <div class="widget-spacer-block" style="height: 6px;"></div>
+                <div class="widget-spacer-block" style="height: 10px;"></div>
               </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7"><a class="link" href="#" target="_self">Встановлення меж земельних ділянок в натурі</a><br></p>
-                </div>
-              </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">Company conducts independent research trials and studies for the crop protection industry.<br></p>
-                </div>
-              </div>
-            </div>
-            <div class="cell col-sm-3">
-              <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
-                <div class="widget-image-link">
-                  <img src="../assets/images/services_research2.jpg" class="widget-image-picture" title=""  alt="" draggable="false">
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal">
+                    <strong><span class="color5_4">&gt;</span><span class="color1_3">&nbsp;&nbsp;</span></strong><a class="link service-description" target="_self" id="s003" onclick="scrollWin()">Земельно-оціночні роботи</a><br>
+                  </p>
                 </div>
               </div>
               <div class="widget widget-spacer preset-default">
-                <div class="widget-spacer-block" style="height: 6px;"></div>
+                <div class="widget-spacer-block" style="height: 10px;"></div>
               </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7"><a class="link" href="#" target="_self">Грошова оцінка земель</a><br></p>
-                </div>
-              </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">We perform these under strict controls and guidelines employing the latest technologies.<br></p>
-                </div>
-              </div>
-            </div>
-            <div class="cell col-sm-3">
-              <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
-                <div class="widget-image-link">
-                  <img src="../assets/images/services_research3.jpg" class="widget-image-picture" title=""  alt="" draggable="false">
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal">
+                    <span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s004" onclick="scrollWin()">Оформлення документів на землю для реєстрації</a><br>
+                  </p>
                 </div>
               </div>
               <div class="widget widget-spacer preset-default">
-                <div class="widget-spacer-block" style="height: 6px;"></div>
+                <div class="widget-spacer-block" style="height: 10px;"></div>
               </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7"><a class="link" href="#" target="_self">Поділ та об'єднання земельних ділянок</a><br></p>
-                </div>
-              </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">All residue studies undertaken in accordance with the Protection Agency’s guidelines.<br></p>
-                </div>
-              </div>
-            </div>
-            <div class="cell col-sm-3">
-              <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
-                <div class="widget-image-link">
-                  <img src="../assets/images/services_research4.jpg" class="widget-image-picture" title=""  alt="" draggable="false">
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal">
+                    <span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong> </strong></span><a class="link service-description" target="_self" id="s005" onclick="scrollWin()">Присвоєння кадастрових номерів земельним ділянкам</a><br>
+                  </p>
                 </div>
               </div>
               <div class="widget widget-spacer preset-default">
-                <div class="widget-spacer-block" style="height: 6px;"></div>
+                <div class="widget-spacer-block" style="height: 10px;"></div>
               </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_system_7"><a class="link" href="#" target="_self">Сівозміни</a><br></p>
-                </div>
-              </div>
-              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
-                <div class="widget-text-content widget-text-editable">
-                  <p class="text_normal">Our biotech trials are conducted in accordance with Canadian Food Inspection regulations.<br></p>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s006" onclick="scrollWin()">Підготовка пакету документів для укладення договорів оренди на земельні частки (паї та землі ОСГ)</a><br></p>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div class="widget widget-row">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="cell col-sm-12">
-              <div class="widget widget-button preset-2 align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto wow fadeInLeft">
-                <a href="/more/" class="widget-button-link size-medium link"><span class="fa widget-theme-icon"></span> <span class="widget-button-label">READ MORE</span></a>
+            <div class="cell col-sm-4">
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s007" onclick="scrollWin()">Проекти щодо приватизації земель</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s008" onclick="scrollWin()">Організація території земельних часток (паїв)</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s009" onclick="scrollWin()">Відведення земельних ділянок та зміна цільового призначення</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s010" onclick="scrollWin()">Поділ та об'єднання земельних ділянок</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s011" onclick="scrollWin()">Встановлення (відновлення) меж земельної ділянки в натурі (на місцевості)</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s012" onclick="scrollWin()">Надання консультацій щодо вирішення земельних спорів</a><br></p>
+                </div>
+              </div>
+            </div>
+            <div class="cell col-sm-4">
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s013" onclick="scrollWin()">Еколого-економічне обґрунтування сівозміни та впорядкування угідь</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;&nbsp;</strong></span><span class="color1_3"><strong>&nbsp;</strong></span><a class="link service-description" target="_self" id="s014" onclick="scrollWin()">Впорядкування території населених пунктів</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s015" onclick="scrollWin()">Організація і встановлення меж територій в залежності від категорії</a><br></p>
+                </div>
+              </div>
+              <div class="widget widget-spacer preset-default">
+                <div class="widget-spacer-block" style="height: 10px;"></div>
+              </div>
+              <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto fadeInLeft">
+                <div class="widget-text-content">
+                  <p class="text_normal"><span class="color5_4"><strong>&gt;</strong></span><span class="color1_3"><strong>&nbsp;&nbsp;</strong></span><a class="link service-description" target="_self" id="s016" onclick="scrollWin()">Схеми землеустрою і техніко-економічні обґрунтування використання та охорони земель адміністративно-територіальних одиниць</a><br></p>
+                </div>
               </div>
               <div class="widget widget-spacer preset-default">
                 <div class="widget-spacer-block" style="height: 10px;"></div>
@@ -546,27 +416,144 @@
           </div>
         </div>
       </div>
-    </section>
-  </div>
-  <footer id="section-footer" class="footer section">
-    <div data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%" class="widget widget-container parallax container_footer_h012">
-      <div class="visible-lg visible-md visible-sm widget widget-spacer preset-default spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
-        <div class="widget-spacer-block" style="height: 0px;">
+      <div class="widget widget-spacer preset-default spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto">
+        <div class="widget-spacer-block" style="height: 0px;"></div>
+      </div>
+    </div>
+    <div class="widget widget-row row-fixed">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="cell col-sm-12">
+            <div class="widget widget-text preset-default wow fadeInLeft spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
+              <div class="widget-text-content">
+                <p class="text_system_6" style="text-align: center;">Частки(паї) та ОСГ</p>
+              </div>
+            </div>
+            <div data-animation="fadeInLeft" class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_system_9" style="text-align: center;">We conduct regular surveys of the quality of our production<br></p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
+    <div class="widget widget-row row-fixed">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="cell col-sm-3">
+            <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
+              <div class="widget-image-link">
+                <img src="../assets/images/services_research1.jpg" class="widget-image-picture" title="" alt="" draggable="false">
+              </div>
+            </div>
+            <div class="widget widget-spacer preset-default">
+              <div class="widget-spacer-block" style="height: 6px;"></div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_system_7"><a class="link" href="#" target="_self">Встановлення меж земельних ділянок в натурі</a><br></p>
+              </div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_normal">Company conducts independent research trials and studies for the crop protection industry.<br></p>
+              </div>
+            </div>
+          </div>
+          <div class="cell col-sm-3">
+            <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
+              <div class="widget-image-link">
+                <img src="../assets/images/services_research2.jpg" class="widget-image-picture" title="" alt="" draggable="false">
+              </div>
+            </div>
+            <div class="widget widget-spacer preset-default">
+              <div class="widget-spacer-block" style="height: 6px;"></div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_system_7"><a class="link" href="#" target="_self">Грошова оцінка земель</a><br></p>
+              </div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_normal">We perform these under strict controls and guidelines employing the latest technologies.<br></p>
+              </div>
+            </div>
+          </div>
+          <div class="cell col-sm-3">
+            <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
+              <div class="widget-image-link">
+                <img src="../assets/images/services_research3.jpg" class="widget-image-picture" title="" alt="" draggable="false">
+              </div>
+            </div>
+            <div class="widget widget-spacer preset-default">
+              <div class="widget-spacer-block" style="height: 6px;"></div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_system_7"><a class="link" href="#" target="_self">Поділ та об'єднання земельних ділянок</a><br></p>
+              </div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_normal">All residue studies undertaken in accordance with the Protection Agency’s guidelines.<br></p>
+              </div>
+            </div>
+          </div>
+          <div class="cell col-sm-3">
+            <div class="widget widget-image preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto wow fadeInLeft">
+              <div class="widget-image-link">
+                <img src="../assets/images/services_research4.jpg" class="widget-image-picture" title="" alt="" draggable="false">
+              </div>
+            </div>
+            <div class="widget widget-spacer preset-default">
+              <div class="widget-spacer-block" style="height: 6px;"></div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_system_7"><a class="link" href="#" target="_self">Сівозміни</a><br></p>
+              </div>
+            </div>
+            <div class="widget widget-text preset-default wow spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto fadeInLeft">
+              <div class="widget-text-content">
+                <p class="text_normal">Our biotech trials are conducted in accordance with Canadian Food Inspection regulations.<br></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="widget widget-row">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="cell col-sm-12">
+            <div class="widget widget-button preset-2 align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto wow fadeInLeft">
+              <a class="widget-button-link size-medium link" onclick="openForm()"><span class="fa widget-theme-icon"></span> <span class="widget-button-label">ЗАМОВИТИ ПОСЛУГУ</span></a>
+            </div>
+            <div class="widget widget-spacer preset-default">
+              <div class="widget-spacer-block" style="height: 10px;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer id="section-footer" class="footer section">
+    <div data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%" class="widget widget-container parallax container_footer_h012">
       <div class="widget widget-row row-fixed">
         <div class="container-fluid">
           <div class="row">
             <div class="cell col-sm-12">
               <div class="widget widget-text preset-default wow fadeInLeft spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
+                <div class="widget-text-content">
                   <p class="text_system_13" style="text-align: center;">
                     НАШІ КОНТАКТИ
                   </p>
                 </div>
               </div>
               <div class="widget widget-text preset-default wow fadeInLeft spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
+                <div class="widget-text-content">
                   <p class="text_system_8" style="text-align: center;">
                     ТОВ "Сумський земельний кадастр"<br>
                   </p>
@@ -576,25 +563,18 @@
           </div>
         </div>
       </div>
-      <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-        <div class="widget-spacer-block" style="height: 10px;">
-        </div>
-      </div>
       <div class="widget widget-row row-fixed">
         <div class="container-fluid">
           <div class="row">
             <div class="cell col-sm-3">
-              <div class="widget widget-divider preset-default align-left spacing-top-medium spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <hr style="width: 0%;" class="widget-divider-line">
-              </div>
             </div>
             <div class="cell col-sm-6">
               <div class="widget widget-text preset-default wow fadeInLeft spacing-top-small spacing-right-auto spacing-bottom-large spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
+                <div class="widget-text-content">
                   <p class="text_system_10" style="text-align: center;">
                     <strong>Адреса: </strong>м. Суми, вул. Іллінська, 112, 1 поверх, оф.1<br>
                     <br>
-                    <a href="#" class="link_to_map">Переглянути на карті</a><br>
+                    <a class="link_to_map" onclick="openMap()">Переглянути на карті</a><br>
                     <br>
                     <strong>Телефон: </strong>099 49 47 267,<br>095 01 24 596,<br>067 12 21 578<br>
                     <strong>E-mail: </strong>tovszk@ukr.net<br>
@@ -607,7 +587,7 @@
           </div>
         </div>
         <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto">
-              <a href="#" class="widget-button-link size-medium link button-orange"><span class="widget-button-label">ЗВ'ЯЗАТИСЯ З НАМИ</span></a>
+          <a class="widget-button-link size-medium link button-orange" onclick="openForm()"><span class="widget-button-label">ЗВ'ЯЗАТИСЯ З НАМИ</span></a>
         </div>
       </div>
       <div class="widget widget-row row-fixed">
@@ -615,7 +595,7 @@
           <div class="row">
             <div class="cell col-sm-12">
               <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content widget-text-editable">
+                <div class="widget-text-content">
                   <p class="text_system_11" style="text-align: center;">
                     <a class="link" href="#"><br>&#169; Розробка сайту, В. Е. Денисюк, 2016</a><br>
                   </p>
@@ -627,40 +607,145 @@
       </div>
     </div>
   </footer>
+  <div id="map">
+    <div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id="closeMap" type="button" class="close">&times;</button>
+        </div>
+        <div class="modal-body">
+          <div class="container-fluid spacing-left-medium spacing-right-medium spacing-top-medium spacing-bottom-medium">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1257.748767471273!2d34.77024025531743!3d50.914512766528304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4129017f5c356bfd%3A0x64f4c5efe1406e90!2z0IbQu9C70ZbQvdGB0YzQutCwINCy0YPQu9C40YbRjywgMTEyLCDQodGD0LzQuCwg0KHRg9C80YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1506135798831" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="form">
+    <div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <button id="closeForm" type="button" class="close">&times;</button>
+          <p class="text_system_6" style="text-align: center;">
+            Зв'яжіться з нами<br>
+          </p>
+          <p class="text_system_9" style="text-align: center;">
+            Задавайте питання чи замовляйте послуги<br>
+          </p>
+        </div>
+        <div class="modal-body">
+          <div class="widget widget-row row-fixed">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-12">
+                  <!-- Сообщение, отображаемое в случае успешной отправки данных -->
+                  <div class="alert alert-success hidden" role="alert" id="successMessage">
+                    <strong>Увага!</strong> Ваше повідомлення надіслано успішно.
+                  </div>
+                  <!-- Форма обратной связи -->
+                  <form id="contactForm" action= "../post.php" method= "POST">
+                    <div>
+                      <div id="error" class="row" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
+                      <!-- Имя и email пользователя -->
+                      <div class="row">
+                        <!-- Имя пользователя -->
+                        <div class="form-group has-feedback">
+                          <label for="name" class="control-label">Ім'я:*</label>
+                          <input type="text" id="name" name="name" class="form-control user-input" required="required" value="" placeholder="Ім'я:*" minlength="2" maxlength="30">
+                          <span class="glyphicon form-control-feedback"></span>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <!-- Email пользователя -->
+                        <div class="form-group has-feedback">
+                          <label for="email" class="control-label">Email:*</label>
+                          <input type="email" id="email" name="email" class="form-control user-input" required="required" value="" placeholder="Email:*" maxlength="30">
+                          <span class="glyphicon form-control-feedback"></span>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <!-- phone пользователя -->
+                        <div class="form-group has-feedback">
+                          <label for="email" class="control-label">Телефон:*</label>
+                          <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
+                          <span class="glyphicon form-control-feedback"></span>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- Сообщение пользователя -->
+                    <div class="form-group has-feedback">
+                      <label for="message" class="control-label">Повідомлення:*</label>
+                      <textarea id="message" name= "message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
+                    </div>
+                    <!-- <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div> -->
+                    <!-- for szk.ua -->
+                    <!-- <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> -->
+                    <!-- for szk.esy.es -->
+                    <!-- Кнопка, отправляющая форму -->
+                    <div class="button-inside">
+                      <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
+                    </div>
+                  </form>
+                  <!-- Конец формы -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="back-to-top-button"></div>
   <script src="../assets/js/jquery-1.10.1.js"></script>
   <script src="../assets/js/overscroll.js"></script>
+  <script src="../assets/js/perfect-scrollbar.js"></script>
   <script>
-    if (document.body.clientWidth>768){
-      document.write('<script src="../assets/js/jquery.stellar.js"></scr'+'ipt>')
+    function openForm() {
+      $("#form").css("display", "block");
+      $("#closeForm").click(function() {
+        $("#form").css("display", "none");
+      })
     }
-  </script>
-  <script>
-    $(window).stellar();
-  </script>
-  <script>
-    function loadPage(){
-      var param=window.location.search;
+    function openMap() {
+      $("#map").css("display", "block");
+      $("#closeMap").click(function() {
+        $("#map").css("display", "none");
+      })
+    }
+    function loadPage() {
+      var param = window.location.search;
       console.log(param);
-      if(param){
+      if (param) {
         var keyFile = param.split('=');
         console.log(keyFile);
-        var myFile="/services/descriptions/service_"+keyFile[1]+".html";
+        var myFile = "/services/descriptions/service_" + keyFile[1] + ".html";
         console.log(myFile);
         $("#content").load(myFile);
       }
     }
-    $(function(){
-        $('.service-description').click(function(){
-            var url='/services/?serv='+this.id;
-            var myFile="/services/descriptions/service_"+this.id+".html";
-            $("#content").load(myFile);
-            history.replaceState('', '', url);
-        });
+    $(function() {
+      $('.service-description').click(function() {
+        var url = '/services/?serv=' + this.id;
+        var myFile = "/services/descriptions/service_" + this.id + ".html";
+        $("#content").load(myFile);
+        history.replaceState('', '', url);
+      });
     });
-    $( "#openMenu" ).click(function() {
-      $( "#menu" ).toggleClass( "open" );
+    const container = document.querySelector('#scroll');
+    Ps.initialize(container, {
+      wheelSpeed: 0.7,
+      wheelPropagation: true,
+      minScrollbarLength: 20,
+      handlers: ['keyboard', 'wheel', 'touch', 'click-rail']
     });
+    $("#openMenu").click(function() {
+      $("#menu").toggleClass("open");
+    });
+    function scrollWin() {
+      var h = 230;
+      $('html, body').animate({scrollTop:h}, 300);
+    }
   </script>
 </body>
+
 </html>

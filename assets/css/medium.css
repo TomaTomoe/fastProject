@@ -24,3 +24,15 @@
     -webkit-transform: rotate(200deg);
     transform: rotate(200deg);
 }
+.widget-button .widget-button-link {
+  padding: 16px 30px 15px;
+}
+
+#form .modal-content {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.text_system_16 {
+  font-size: 30px;
+}
