@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/bootstrap.css"/>
   <link rel="stylesheet" href="../assets/css/css-contacts.css"/>
-  <link rel="stylesheet" href="../assets/css/perfect-scrollbar.css" />
   <link rel="stylesheet" media="all and (min-width: 1200px)" href="../assets/css/large.css">
   <link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1199px)" href="../assets/css/medium.css">
   <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="../assets/css/small.css">
@@ -254,15 +253,7 @@
   <div class="back-to-top-button"></div>
   <script src="../assets/js/jquery-1.10.1.js"></script>
   <script src="../assets/js/overscroll.js"></script>
-  <script src="../assets/js/perfect-scrollbar.js"></script>
   <script>
-    const container = document.querySelector('#scroll');
-    Ps.initialize(container, {
-      wheelSpeed: 0.7,
-      wheelPropagation: true,
-      minScrollbarLength: 20,
-      handlers: ['keyboard', 'wheel', 'touch', 'click-rail']
-    });
     $( "#openMenu" ).click(function() {
       $( "#menu" ).toggleClass( "open" );
     });

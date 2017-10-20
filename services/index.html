@@ -12,7 +12,6 @@
   <link rel="stylesheet" href="../assets/font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="../assets/css/bootstrap.css" />
   <link rel="stylesheet" href="../assets/css/css-services.css" />
-  <link rel="stylesheet" href="../assets/css/perfect-scrollbar.css" />
   <link rel="stylesheet" media="all and (min-width: 1200px)" href="../assets/css/large.css">
   <link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1199px)" href="../assets/css/medium.css">
   <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="../assets/css/small.css">
@@ -698,7 +697,6 @@
   <div class="back-to-top-button"></div>
   <script src="../assets/js/jquery-1.10.1.js"></script>
   <script src="../assets/js/overscroll.js"></script>
-  <script src="../assets/js/perfect-scrollbar.js"></script>
   <script>
     function openForm() {
       $("#form").css("display", "block");
@@ -731,13 +729,17 @@
         history.replaceState('', '', url);
       });
     });
-    const container = document.querySelector('#scroll');
-    Ps.initialize(container, {
-      wheelSpeed: 0.7,
-      wheelPropagation: true,
-      minScrollbarLength: 20,
-      handlers: ['keyboard', 'wheel', 'touch', 'click-rail']
-    });
+    function collapseContent() {
+      var elem = $('.ajax-content');
+      elem.toggleClass('in');
+      if (elem.hasClass('in')) {
+        function goToList() {
+          var h = 750;
+          $('html, body').animate({scrollTop:h}, 300);
+        }
+        setTimeout(goToList, 1200);
+      }
+    };
     $("#openMenu").click(function() {
       $("#menu").toggleClass("open");
     });

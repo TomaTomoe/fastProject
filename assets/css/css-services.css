@@ -1121,6 +1121,7 @@ background-repeat: no-repeat;
 }
 #content {
     margin: 50px 0;
+    height: 100%;
 }
 #content .ajax-content p, #content .ajax-content ul li {
     font-weight: 400;
@@ -1147,12 +1148,68 @@ background-repeat: no-repeat;
     text-align: center;
 }
 #content .ajax-content {
+  position: relative;
   padding: 40px;
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  min-height: 300px;
+  max-height: 2000px;
+  overflow: visible;
   background-color: #c1ffc0;
+  -webkit-transition: max-height ease 0.8s;
+  -moz-transition: max-height ease 0.8s;
+  -o-transition: max-height ease 0.8s;
+  -ms-transition: max-height ease 0.8s;
+  transition: max-height ease 0.8s;
+}
+#content .ajax-content.in {
+  max-height: 100px;
+  overflow: hidden;
+  -webkit-transition: max-height ease 0.8s;
+  -moz-transition: max-height ease 0.8s;
+  -o-transition: max-height ease 0.8s;
+  -ms-transition: max-height ease 0.8s;
+  transition: max-height ease 0.8s;
+}
+#content #collapse {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 50px;
+  width: 150px;
+  background: #e48301;
+}
+#content .ajax-content #collapse::before {
+  content: "Згорнути";
+  position: absolute;
+  top: 15px;
+  height: 22px;
+  width: 150px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  -webkit-transition: content ease 0.8s;
+  -moz-transition: content ease 0.8s;
+  -o-transition: content ease 0.8s;
+  -ms-transition: content ease 0.8s;
+  transition: content ease 0.8s;
+}
+#content .ajax-content.in #collapse::before {
+  content: "Розгорнути";
+  position: absolute;
+  top: 15px;
+  height: 22px;
+  width: 150px;
+  text-align: center;
+  line-height: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  -webkit-transition: content ease 0.8s;
+  -moz-transition: content ease 0.8s;
+  -o-transition: content ease 0.8s;
+  -ms-transition: content ease 0.8s;
+  transition: content ease 0.8s;
 }
 @media (max-width:1199px) {
   header#section-header {
