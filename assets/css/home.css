@@ -291,6 +291,7 @@ nav, section, summary {
 }
 .widget-menu .widget-menu-list .widget-menu-item {
     display: inline-block;
+    vertical-align: top;
     position: relative;
 }
 .widget-menu .widget-menu-list >.widget-menu-item {
@@ -391,7 +392,7 @@ nav, section, summary {
     width: 2px;
     height: 13px;
     left: -5px;
-    top: 70px;
+    top: 44px;
     -webkit-transform: rotate(200deg);
     transform: rotate(200deg);
 }
