@@ -193,7 +193,7 @@
               <div class="cell col-sm-12">
                 <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-large spacing-left-auto">
                   <div class="widget-text-content">
-                    <p class="text_normal_dark" style="text-align: center;">Провідний спеціаліст:</p>
+                    <p class="text_normal_dark" style="text-align: center;">Адвокат:</p>
                     <p class="text_system_6" style="text-align: center;">Семишкур Станіслав Вікторович</p>
                     <p class="text_normal_dark" style="text-align: center;">контакти:</p>
                     <p class="text_system_2" style="text-align: center;">Тел.моб.: +38(050)862-33-23; <br />
@@ -288,7 +288,7 @@
         </div>
         <div class="modal-body">
           <div class="container-fluid spacing-left-medium spacing-right-medium spacing-top-medium spacing-bottom-medium">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1257.748767471273!2d34.77024025531743!3d50.914512766528304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4129017f5c356bfd%3A0x64f4c5efe1406e90!2z0IbQu9C70ZbQvdGB0YzQutCwINCy0YPQu9C40YbRjywgMTEyLCDQodGD0LzQuCwg0KHRg9C80YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1506135798831" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <div id=myMap></div>
           </div>
         </div>
       </div>
@@ -385,10 +385,25 @@
       $("#closeMap").click(function() {
         $("#map").css("display", "none");
       })
+      initMap()
     }
     $( "#openMenu" ).click(function() {
       $( "#menu" ).toggleClass( "open" );
     });
+    function initMap() {
+        var uluru = {lat: 50.914675, lng: 34.772751};
+        var map = new google.maps.Map(document.getElementById('myMap'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+  </script>
+  <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC04J_lW_ksA5gFeSEBEOmSTNlxpD01WBw">
   </script>
 
 </body>

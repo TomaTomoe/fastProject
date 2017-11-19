@@ -1684,3 +1684,7 @@ i.glyphicon-refresh:before {
     background-color: #f2dede;
     border-color: #ebccd1;
 }
+#myMap {
+  height: 100%;
+  width: 100%;
+}

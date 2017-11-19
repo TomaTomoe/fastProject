@@ -1457,3 +1457,7 @@ a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
     background-color: #f2dede;
     border-color: #ebccd1;
 }
+#myMap {
+  height: 100%;
+  width: 100%;
+}
