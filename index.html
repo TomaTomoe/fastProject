@@ -1,610 +1,394 @@
 <!DOCTYPE html>
-<html lang="ru" data-ng-app="website">
+<html lang="uk">
 
-<head>
-  <meta charset="utf-8">
-  <title>Home</title>
-  <meta name="keywords" content="home, mainpage, index" />
-  <meta name="robots" content="noindex, follow" />
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600&amp;subset=cyrillic-ext" rel="stylesheet">
-  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
-  <link rel="stylesheet" href="assets/css/bootstrap.css" />
-  <link rel="stylesheet" href="assets/css/home.css" />
-  <link rel="stylesheet" media="all and (min-width: 1200px)" href="assets/css/large.css">
-  <link rel="stylesheet" media="all and (min-width: 992px) and (max-width: 1199px)" href="assets/css/medium.css">
-  <link rel="stylesheet" media="all and (min-width: 768px) and (max-width: 991px)" href="assets/css/small.css">
-  <link rel="stylesheet" media="all and (max-width: 767px)" href="assets/css/x-small.css">
-  <!-- <script src='https://www.google.com/recaptcha/api.js'></script> -->
-</head>
+  <head>
+    <meta charset="utf-8">
+    <title>Головна</title>
+    <meta name="description" content="ТОВ Сумський Земельний Кадастр. Земельні та землевпорядні послуги, геодезична зйомка. Розробка всіх видів землевпорядної документації." />
+    <meta name="keywords" content="земельные услуги, землеустройство, геодезическая съёмка, кадастр, Суммы, землевпорядник, земельні послуги, геодезична зйомка, Суми, кадастровый номер" />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/home.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/form.css" />
+    <link rel="stylesheet" href="assets/css/map.css" />
+  </head>
 
-<body id="scroll" class="background">
-  <header id="hat" class="widget container_subheader">
-    <div class="widget row-gutter-0">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="cell col-sm-4">
-            <div class="widget widget-row">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="cell col-xs-9">
-                    <div class="widget widget-container container_header_logo">
-                      <div class="widget widget-image preset-default align-center">
-                        <a class="widget-image-link link" href="#"><img src="assets/images/home-logo1.png" class="widget-image-picture" title=""  alt="" draggable="false"></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell col-xs-3 visible-xs">
-                    <button type="button" id="openMenu">
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                          <span class="icon-bar"></span>
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="cell col-sm-8" id="menu">
-            <div class="widget widget-menu preset-default align-right">
-              <ul class="widget-menu-list widget-menu-list_horizontal">
-                <li class="widget-menu-item">
-                  <a href="/" class="widget-menu-link widget-menu-link-level-1 widget-menu-link-active link">
-                        ГОЛОВНА
-                      </a>
-                </li>
-                <li class="widget-menu-item">
-                  <a href="/services/" class="widget-menu-link widget-menu-link-level-1 link two-line-link">
-                        ЗЕМЕЛЬНІ</br>ПОСЛУГИ
-                      </a>
-                </li>
-                <li class="widget-menu-item">
-                  <a href="/law-services/" class="widget-menu-link widget-menu-link-level-1 link two-line-link">
-                        ЮРИДИЧНІ</br>ПОСЛУГИ
-                      </a>
-                </li>
-                <li class="widget-menu-item">
-                  <a href="/contacts/" class="widget-menu-link widget-menu-link-level-1 link">
-                        КОНТАКТИ
-                      </a>
-                </li>
-              </ul>
-            </div>
-          </div>
+  <body>
+    <header id="hat" class="header">
+      <div class="here">
+        <div class="col-lg-4 col-md-4 col-sm-5 col-xs-9 logo">
+          <a class="logo-image-link link" href="#">
+            <img src="assets/images/home-logo1.png" class="logo-image" title=""  alt="" draggable="false">
+          </a>
+        </div>
+        <div class="menu-button col-xs-3 visible-xs">
+          <button type="button" id="openMenu">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+          </button>
         </div>
       </div>
-    </div>
-  </header>
-  <section id="section-header" class="header section">
-    <div class="widget parallax container_header">
-      <div class="widget row-fixed">
+      <div class="col-lg-8 col-md-8 col-sm-7" id="menu">
+        <div class="menu preset-default align-right">
+          <ul class="menu-list">
+            <li class="menu-item">
+              <a href="/" class="menu-link menu-link-active link">
+                ГОЛОВНА
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="/services/" class="menu-link link two-line-link">
+                ЗЕМЕЛЬНІ</br><i>&#8194;</i>ПОСЛУГИ
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="/law-services/" class="menu-link link two-line-link">
+                ЮРИДИЧНІ</br><i>&#8194;</i>ПОСЛУГИ
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="/contacts/" class="menu-link link">
+                КОНТАКТИ
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="title">
+      <div class="main-header">
+        <p class="text_1">
+          <span>Роботи із землеустрою</span>
+        </p>
+        <a id="scroll-to-services" onclick="scrollWin()" >
+          <img src="assets/images/home-arrows.png" alt="go_next_screen" draggable="false">
+        </a>
+      </div>
+    </section>
+    <section id="section-content" class="content page-1 section">
+      <div class="content-header">
+        <p class="text_system_6" style="text-align: center;">Ми пропонуємо</p>
+      </div>
+      <div class="first-row">
         <div class="container-fluid">
           <div class="row">
-            <div class="cell col-sm-12">
-              <div class="widget widget-text preset-default  fadeIn spacing-top-large spacing-right-auto spacing-bottom-large spacing-left-auto" style="visibility: visible;">
-                <div class="widget-text-content">
-                  <p class="text_system_4" style="text-align: center;">
-                    <span>Роботи із землеустрою</span><br>
-                  </p>
-                </div>
-              </div>
-              <div class="visible-lg visible-md visible-sm widget widget-image preset-default align-center spacing-top-medium spacing-right-auto spacing-left-auto  fadeIn" style="visibility: visible;">
-                <a class="widget-image-link link" id="scroll-to-services" onclick="scrollWin()" >
-                      <img src="assets/images/home-arrows.png" class="widget-image-picture" title=""  alt="" draggable="false">
-                    </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section-content" class="content page-1 section">
-    <div class="widget widget-row row-fixed">
-      <a name="about" class="anchor"></a>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="cell col-sm-12">
-            <div class="widget widget-text preset-default  spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto " style="visibility: visible;">
-              <div class="widget-text-content">
-                <p class="text_system_6" style="text-align: center;">Ми пропонуємо</p>
-              </div>
-            </div>
-            <div class="widget widget-text preset-default spacing-top-small spacing-right-auto spacing-bottom-medium spacing-left-auto" style="visibility: visible;">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="widget widget-row">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="cell col-sm-4 container_content_h001">
-            <div class="widget widget-container">
-              <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-text preset-default spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto" style="visibility: visible;">
-                <div class="widget-text-content">
-                  <p class="text_system_5" style="text-align: center;">
-                    Проекти щодо приватизації земель<br>
-                  </p>
-                </div>
-              </div>
-              <div class="widget widget-spacer preset-default spacing-top-medium spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto  " style="visibility: visible;">
-                <a href="/services/?serv=s007" class="widget-button-link size-medium link">
-                      <span class="fa widget-theme-icon"></span>
-                      <span class="widget-button-label">
-                        ДЕТАЛЬНІШЕ
-                      </span>
+            <div class="col-sm-4 col-xs-12 container_content_h001">
+              <p class="text_system_5">
+                Проекти щодо приватизації земель
+              </p>
+              <div class="button-bottom">
+                <a href="/services/?serv=s007" class="button-link size-medium link">
+                  <span class="button-label">
+                    ДЕТАЛЬНІШЕ
+                  </span>
                 </a>
               </div>
             </div>
-          </div>
-          <div class="cell col-sm-4 container_content_h002">
-            <div class="widget widget-container">
-              <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto" style="visibility: visible;">
-                <div class="widget-text-content">
-                  <p class="text_system_5" style="text-align: center;">
-                    Інвентаризація земель всіх категорій<br>
-                  </p>
-                </div>
-              </div>
-              <div class="widget widget-spacer preset-default spacing-top-medium spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto  " style="visibility: visible;">
-                <a href="/services/?serv=s002" class="widget-button-link size-medium link">
-                      <span class="fa widget-theme-icon"></span>
-                      <span class="widget-button-label">
-                        ДЕТАЛЬНІШЕ
-                      </span>
+            <div class="col-sm-4 col-xs-12 container_content_h002">
+              <p class="text_system_5">
+                Інвентаризація земель всіх категорій
+              </p>
+              <div class="button-bottom">
+                <a href="/services/?serv=s002" class="button-link size-medium link">
+                  <span class="button-label">
+                    ДЕТАЛЬНІШЕ
+                  </span>
                 </a>
               </div>
             </div>
-          </div>
-          <div class="cell col-sm-4 container_content_h003">
-            <div class="widget widget-container">
-              <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto" style="visibility: visible;">
-                <div class="widget-text-content">
-                  <p class="text_system_5" style="text-align: center;">
-                    Отримання кадастрового номеру
-                  </p>
-                </div>
-              </div>
-              <div class="widget widget-spacer preset-default spacing-top-medium spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto  " style="visibility: visible;">
-                <a href="/services/?serv=s005" class="widget-button-link size-medium link">
-                      <span class="fa widget-theme-icon"></span>
-                      <span class="widget-button-label">
-                        ДЕТАЛЬНІШЕ
-                      </span>
+            <div class="col-sm-4 col-xs-12 container_content_h003">
+              <p class="text_system_5">
+                Отримання кадастрового номеру
+              </p>
+              <div class="button-bottom">
+                <a href="/services/?serv=s005" class="button-link size-medium link">
+                  <span class="button-label">
+                    ДЕТАЛЬНІШЕ
+                  </span>
                 </a>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="widget widget-row">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="cell col-sm-6 container_content_h004">
-            <div class="widget widget-container">
-              <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto" style="visibility: visible;">
-                <div class="widget-text-content">
-                  <p class="text_108" style="text-align: center;">
-                    Проектування земельних робіт<br>
-                  </p>
-                </div>
-              </div>
-              <div class="widget widget-spacer preset-default spacing-top-medium spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                <div class="widget-spacer-block" style="height: 0px;">
-                </div>
-              </div>
-              <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto  " style="visibility: visible;">
-                <a href="/services/?serv=s013" class="widget-button-link size-medium link"><span class="fa widget-theme-icon"></span><span class="widget-button-label">ДЕТАЛЬНІШЕ</span></a>
+      <div class="second-row">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-sm-6 container_content_h004">
+              <p class="text_108">
+                Проектування земельних робіт
+              </p>
+              <div class="button-bottom">
+                <a href="/services/?serv=s013" class="button-link size-medium link">
+                  <span class="button-label">ДЕТАЛЬНІШЕ</span>
+                </a>
               </div>
             </div>
-          </div>
-          <div class="cell col-sm-6">
-            <div class="widget widget-row">
+            <div class="col-sm-6 padding-zero">
               <div class="container-fluid">
                 <div class="row">
-                  <div class="cell col-sm-6 container_content_h005">
-                    <div class="widget widget-container">
-                      <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-small spacing-left-auto">
-                        <div class="widget-spacer-block" style="height: 0px;">
-                        </div>
-                      </div>
-                      <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto" style="visibility: visible;">
-                        <div class="widget-text-content">
-                          <p class="text_system_15" style="text-align: center;">
-                            Топографо-геодезичні роботи
-                          </p>
-                        </div>
-                      </div>
-                      <div class="widget widget-spacer preset-default spacing-top-medium spacing-right-auto spacing-bottom-auto spacing-left-auto">
-                        <div class="widget-spacer-block" style="height: 0px;">
-                        </div>
-                      </div>
-                      <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto  " style="visibility: visible;">
-                        <a href="/services/?serv=s001" class="widget-button-link size-medium link"><span class="fa widget-theme-icon"></span><span class="widget-button-label">ДЕТАЛЬНІШЕ</span></a>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="cell col-sm-6 container_content_h006">
-                    <div class="widget widget-container">
-                      <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto" style="visibility: visible;">
-                        <div class="widget-text-content">
-                          <p class="text_109" style="text-align: center;">
-                            <a class="link" href="/services/">Всі</a>
-                          </p>
-                        </div>
-                      </div>
-                      <div class="widget widget-text preset-default   spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto" style="visibility: visible;">
-                        <div class="widget-text-content">
-                          <p class="text_110" style="text-align: center;">
-                            <a class="link" href="/services/">
-                                  послуги
-                                </a><br>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section-form">
-    <div class="widget widget-row row-fixed">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="cell col-sm-12">
-            <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
-              <div class="widget-text-content">
-                <p class="text_system_6" style="text-align: center;">
-                  Зв'яжіться з нами<br>
-                </p>
-              </div>
-            </div>
-            <div class="widget widget-text preset-default spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-              <div class="widget-text-content">
-                <p class="text_system_9" style="text-align: center;">
-                  Задавайте питання чи замовляйте послуги<br>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="widget widget-row row-fixed">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-sm-12">
-            <!-- Сообщение, отображаемое в случае успешной отправки данных -->
-            <div class="alert alert-success hidden" role="alert" id="successMessage">
-              <strong>Увага!</strong> Ваше повідомлення надіслано успішно.
-            </div>
-            <!-- Форма обратной связи -->
-            <form id="contactFormStatic">
-              <div>
-                <div id="error" class="row" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
-                <!-- Имя и email пользователя -->
-                <div class="row">
-                  <!-- Имя пользователя -->
-                  <div class="form-group has-feedback">
-                    <label for="name" class="control-label">Ім'я:*</label>
-                    <input type="text" id="name" name="name" class="form-control user-input" required="required" value="" placeholder="Ім'я:*" minlength="2" maxlength="30">
-                    <span class="glyphicon form-control-feedback"></span>
-                  </div>
-                </div>
-                <div class="row">
-                  <!-- Email пользователя -->
-                  <div class="form-group has-feedback">
-                    <label for="email" class="control-label">Email:*</label>
-                    <input type="email" id="email" name="email" class="form-control user-input" required="required" value="" placeholder="Email:*" maxlength="30">
-                    <span class="glyphicon form-control-feedback"></span>
-                  </div>
-                </div>
-                <div class="row">
-                  <!-- phone пользователя -->
-                  <div class="form-group has-feedback">
-                    <label for="email" class="control-label">Телефон:*</label>
-                    <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
-                    <span class="glyphicon form-control-feedback"></span>
-                  </div>
-                </div>
-              </div>
-              <!-- Сообщение пользователя -->
-              <div class="form-group has-feedback">
-                <label for="message" class="control-label">Повідомлення:*</label>
-                <textarea id="message" name= "message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
-              </div>
-              <!-- <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div> -->
-              <!-- for szk.ua -->
-              <!-- <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> -->
-              <!-- for szk.esy.es -->
-              <!-- Кнопка, отправляющая форму -->
-              <div class="button-inside">
-                <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
-              </div>
-            </form>
-            <!-- Конец формы -->
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section-client" class="widget widget-container container_content_h011">
-    <div class="widget widget-spacer preset-default spacing-top-large spacing-right-auto spacing-bottom-medium spacing-left-auto">
-      <p class="text_system_6" style="text-align: center;">Наші найвідоміші клієнти</p>
-    </div>
-    <div class="widget widget-row row-fixed">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="cell col-sm-offset-3"></div>
-          <div class="cell col-sm-6">
-            <div class="widget widget-row">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="cell col-sm-4">
-                    <div class="widget widget-image preset-3 align-center spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto  ">
-                      <a class="widget-image-link link" href="https://kyivstar.ua" target="_blank">
-                          <img src="assets/images/Kyivstar_logo15.png" class="widget-image-picture" title=""  alt="" draggable="false">
+                  <div class="col-sm-6 container_content_h005">
+                    <p class="text_system_15">
+                      Топографо-геодезичні роботи
+                    </p>
+                    <div class="button-bottom">
+                      <a href="/services/?serv=s001" class="button-link size-medium link">
+                        <span class="button-label">ДЕТАЛЬНІШЕ</span>
                       </a>
                     </div>
                   </div>
-                  <div class="cell col-sm-4">
-                    <div class="widget widget-image preset-3 align-center spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto  ">
-                      <a class="widget-image-link link" href="http://www.globalharvestinitiative.org/" target="_blank">
-                          <img src="assets/images/GHI-web-logo.png" class="widget-image-picture" title=""  alt="" draggable="false">
-                      </a>
-                    </div>
-                  </div>
-                  <div class="cell col-sm-4">
-                    <div class="widget widget-image preset-3 align-center spacing-top-large spacing-right-auto spacing-bottom-auto spacing-left-auto tooltip">
-                      <span class="tooltiptext">Наші провідні спеціалісти виконували консультаційні роботи в особистому підряді</span>
-                      <a class="widget-image-link link" href="http://utg.ua/" target="_blank">
-                          <img src="assets/images/ukrTransGas.png" class="widget-image-picture" title=""  alt="" draggable="false">
-                      </a>
+                  <div class="col-sm-6 container_content_h006">
+                    <div>
+                      <p class="text_109">
+                        <a class="link" href="/services/">Всі</a>
+                      </p>
+                      <p class="text_110">
+                        <a class="link" href="/services/">послуги</a><br>
+                      </p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="cell col-sm-3"></div>
         </div>
       </div>
-    </div>
-    <div class="widget widget-spacer preset-default spacing-top-large spacing-right-auto spacing-bottom-medium spacing-left-auto">
-      <div class="widget-spacer-block" style="height: 0px;">
+    </section>
+    <section id="section-form">
+      <p class="text_system_6 align-center">
+        Зв'яжіться з нами<br>
+      </p>
+      <p class="text_system_9 align-center">
+        Задавайте питання чи замовляйте послуги<br>
+      </p>
+      <!-- Сообщение, отображаемое в случае успешной отправки данных -->
+      <div class="alert alert-success hidden" role="alert" id="successMessage">
+        <strong>Увага!</strong> Ваше повідомлення надіслано успішно.
       </div>
-    </div>
-  </section>
-  <footer id="section-footer" class="footer section">
-    <div data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50%" class="widget widget-container parallax container_footer_h012">
-      <div class="visible-lg visible-md visible-sm widget widget-spacer preset-default spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
-        <div class="widget-spacer-block" style="height: 0px;">
-        </div>
-      </div>
-      <div class="widget widget-row row-fixed">
-        <div class="container-fluid">
+      <!-- Форма обратной связи -->
+      <form id="contactFormStatic">
+        <div>
+          <div id="error" class="row" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
+          <!-- Имя и email пользователя -->
           <div class="row">
-            <div class="cell col-sm-12">
-              <div class="widget widget-text preset-default   spacing-top-large spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content">
-                  <p class="text_system_13" style="text-align: center;">
-                    НАШІ КОНТАКТИ
-                  </p>
-                </div>
-              </div>
-              <div class="widget widget-text preset-default   spacing-top-auto spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <div class="widget-text-content">
-                  <p class="text_system_8" style="text-align: center;">
-                    ТОВ "Сумський земельний кадастр"<br>
-                  </p>
-                </div>
-              </div>
+            <!-- Имя пользователя -->
+            <div class="form-group has-feedback">
+              <label for="name" class="control-label">Ім'я:*</label>
+              <input type="text" id="name" name="name" class="form-control user-input" required="required" value="" placeholder="Ім'я:*" minlength="2" maxlength="30">
+            </div>
+          </div>
+          <div class="row">
+            <!-- Email пользователя -->
+            <div class="form-group has-feedback">
+              <label for="email" class="control-label">Email:*</label>
+              <input type="email" id="email" name="email" class="form-control user-input" required="required" value="" placeholder="Email:*" maxlength="30">
+            </div>
+          </div>
+          <div class="row">
+            <!-- phone пользователя -->
+            <div class="form-group has-feedback">
+              <label for="email" class="control-label">Телефон:*</label>
+              <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
+            </div>
+          </div>
+        </div>
+        <!-- Сообщение пользователя -->
+        <div class="form-group has-feedback">
+          <label for="message" class="control-label">Повідомлення:*</label>
+          <textarea id="message" name= "message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
+        </div>
+        <!-- <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div> -->
+        <!-- for szk.ua -->
+        <!-- <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> -->
+        <!-- for szk.esy.es -->
+        <!-- Кнопка, отправляющая форму -->
+        <div class="button-inside">
+          <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
+        </div>
+      </form>
+      <!-- Конец формы -->
+    </section>
+    <section id="section-client" class="container_content_h011">
+      <p class="text_system_6 align-center">
+        Наші найвідоміші клієнти<br>
+      </p>
+      <div class="container-fluid">
+        <div class="row spacing-bottom-small">
+          <div class="col-sm-4 align-center">
+            <div class="spacing-top-large">
+              <a class="image-link" href="https://kyivstar.ua" target="_blank">
+                <img src="assets/images/Kyivstar_logo15.png" class="picture" title="Київстар"  alt="" draggable="false">
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 align-center">
+            <div class="spacing-top-large">
+              <a class="image-link" href="http://www.globalharvestinitiative.org/" target="_blank">
+                <img src="assets/images/GHI-web-logo.png" class="picture" title="The Global Harvest Initiative"  alt="" draggable="false">
+              </a>
+            </div>
+          </div>
+          <div class="col-sm-4 align-center">
+            <div class="spacing-top-large tooltip">
+              <span class="tooltiptext">Наші провідні спеціалісти виконували консультаційні роботи в особистому підряді</span>
+              <a class="image-link" href="http://utg.ua/" target="_blank">
+                <img src="assets/images/ukrTransGas.png" class="picture" title="УКРТРАНСГАЗ"  alt="" draggable="false">
+              </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="widget widget-spacer preset-default spacing-top-auto spacing-right-auto spacing-bottom-auto spacing-left-auto">
-        <div class="widget-spacer-block" style="height: 10px;">
+    </section>
+    <footer id="section-footer">
+      <div class="parallax container_footer_h012">
+        <p class="text_system_13 spacing-top-medium align-center">
+          НАШІ КОНТАКТИ
+        </p>
+        <p class="text_system_8 spacing-top-medium align-center">
+          ТОВ "Сумський земельний кадастр"<br>
+        </p>
+        <p class="text_system_10  spacing-top-small align-center">
+          <strong>Адреса: </strong>м.&nbsp;Суми, вул.&nbsp;Іллінська,&nbsp;112, 1&nbsp;поверх,&nbsp;оф.1<br>
+          <br>
+          <a class="link_to_map" onclick="openMap()">Переглянути на карті</a><br>
+          <br>
+          <strong>Телефон: </strong>099 49 47 267,<br>095 01 24 596,<br>067 12 21 578<br>
+          <strong>E-mail: </strong>tovszk@ukr.net<br>
+          tovszk.sumy@gmail.com<br>
+        </p>
+        <div class="button align-center spacing-top-large spacing-bottom-large">
+          <a class="button-orange" onclick="openForm()">ЗВ'ЯЗАТИСЯ З НАМИ</a>
+        </div>
+        <div class="black-bg spacing-top-small spacing-bottom-small">
+          <p class="text_system_11 align-center">
+            <a class="link" href="#">&#169; Розробка сайту, В. Е. Денисюк, 2016</a>
+          </p>
         </div>
       </div>
-      <div class="widget widget-row row-fixed">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="cell col-sm-3">
-              <div class="visible-lg visible-md visible-sm widget widget-divider preset-default align-left spacing-top-medium spacing-right-auto spacing-bottom-medium spacing-left-auto">
-                <hr style="width: 0%;" class="widget-divider-line">
-              </div>
-            </div>
-            <div class="cell col-sm-6">
-              <div class="widget widget-text preset-default   spacing-top-small spacing-right-auto spacing-bottom-large spacing-left-auto">
-                <div class="widget-text-content">
-                  <p class="text_system_10" style="text-align: center;">
-                    <strong>Адреса: </strong>м. Суми, вул. Іллінська, 112, 1 поверх, оф.1<br>
-                    <br>
-                    <a class="link_to_map" onclick="openMap()">Переглянути на карті</a><br>
-                    <br>
-                    <strong>Телефон: </strong>099 49 47 267,<br>095 01 24 596,<br>067 12 21 578<br>
-                    <strong>E-mail: </strong>tovszk@ukr.net<br>
-                    tovszk.sumy@gmail.com<br>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="visible-lg visible-md visible-sm cell col-sm-3">
-            </div>
+    </footer>
+    <div id="map">
+      <div>
+        <div class="modal-content">
+          <div class="modal-header">
+            <button id="closeMap" type="button" class="close">&times;</button>
           </div>
-        </div>
-        <div class="widget widget-button preset-default align-center spacing-top-auto spacing-right-auto spacing-bottom-large spacing-left-auto">
-          <a class="widget-button-link size-medium link button-orange" onclick="openForm()"><span class="widget-button-label">ЗВ'ЯЗАТИСЯ З НАМИ</span></a>
-        </div>
-      </div>
-      <div class="widget widget-row row-fixed">
-        <div class="container-fluid">
-          <div class="row">
-            <div class="cell col-sm-12">
-              <div class="widget widget-text preset-default spacing-top-medium spacing-right-auto spacing-bottom-small spacing-left-auto">
-                <div class="widget-text-content">
-                  <p class="text_system_11" style="text-align: center;">
-                    <a class="link" href="#"><br>&#169; Розробка сайту, В. Е. Денисюк, 2016</a><br>
-                  </p>
-                </div>
-              </div>
+          <div class="modal-body">
+            <div class="container-fluid spacing-left-medium spacing-right-medium spacing-top-medium spacing-bottom-medium">
+              <div id=myMap></div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </footer>
-  <div id="map">
-    <div>
-      <div class="modal-content">
-        <div class="modal-header">
-          <button id="closeMap" type="button" class="close">&times;</button>
-        </div>
-        <div class="modal-body">
-          <div class="container-fluid spacing-left-medium spacing-right-medium spacing-top-medium spacing-bottom-medium">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1257.748767471273!2d34.77024025531743!3d50.914512766528304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4129017f5c356bfd%3A0x64f4c5efe1406e90!2z0IbQu9C70ZbQvdGB0YzQutCwINCy0YPQu9C40YbRjywgMTEyLCDQodGD0LzQuCwg0KHRg9C80YHRjNC60LAg0L7QsdC70LDRgdGC0Yw!5e0!3m2!1sru!2sua!4v1506135798831" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div id="form">
-    <div>
+    <div id="form">
       <div class="modal-content">
         <div class="modal-header">
           <button id="closeForm" type="button" class="close">&times;</button>
-          <p class="text_system_6" style="text-align: center;">
+          <p class="text_system_6 align-center">
             Зв'яжіться з нами<br>
           </p>
-          <p class="text_system_9" style="text-align: center;">
+          <p class="text_system_9 align-center">
             Задавайте питання чи замовляйте послуги<br>
           </p>
         </div>
         <div class="modal-body">
-          <div class="widget widget-row row-fixed">
-            <div class="container-fluid">
+          <!-- Сообщение, отображаемое в случае успешной отправки данных -->
+          <div class="alert alert-success hidden" role="alert" id="successMessage">
+            <strong>Увага!</strong> Ваше повідомлення надіслано успішно.
+          </div>
+          <!-- Форма обратной связи -->
+          <form id="contactForm">
+            <div>
+              <div id="error" class="row" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
+              <!-- Имя и email пользователя -->
               <div class="row">
-                <div class="col-sm-12">
-                  <!-- Сообщение, отображаемое в случае успешной отправки данных -->
-                  <div class="alert alert-success hidden" role="alert" id="successMessage">
-                    <strong>Увага!</strong> Ваше повідомлення надіслано успішно.
-                  </div>
-                  <!-- Форма обратной связи -->
-                  <form id="contactForm" action= "post.php" method= "POST">
-                    <div>
-                      <div id="error" class="row" style="color: #ff0000; margin-top: 5px; margin-bottom: 5px;"></div>
-                      <!-- Имя и email пользователя -->
-                      <div class="row">
-                        <!-- Имя пользователя -->
-                        <div class="form-group has-feedback">
-                          <label for="name" class="control-label">Ім'я:*</label>
-                          <input type="text" id="name" name="name" class="form-control user-input" required="required" value="" placeholder="Ім'я:*" minlength="2" maxlength="30">
-                          <span class="glyphicon form-control-feedback"></span>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <!-- Email пользователя -->
-                        <div class="form-group has-feedback">
-                          <label for="email" class="control-label">Email:*</label>
-                          <input type="email" id="email" name="email" class="form-control user-input" required="required" value="" placeholder="Email:*" maxlength="30">
-                          <span class="glyphicon form-control-feedback"></span>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <!-- phone пользователя -->
-                        <div class="form-group has-feedback">
-                          <label for="email" class="control-label">Телефон:*</label>
-                          <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
-                          <span class="glyphicon form-control-feedback"></span>
-                        </div>
-                      </div>
-                    </div>
-                    <!-- Сообщение пользователя -->
-                    <div class="form-group has-feedback">
-                      <label for="message" class="control-label">Повідомлення:*</label>
-                      <textarea id="message" name= "message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
-                    </div>
-                    <!-- <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div> -->
-                    <!-- for szk.ua -->
-                    <!-- <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> -->
-                    <!-- for szk.esy.es -->
-                    <!-- Кнопка, отправляющая форму -->
-                    <div class="button-inside">
-                      <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
-                    </div>
-                  </form>
-                  <!-- Конец формы -->
+                <!-- Имя пользователя -->
+                <div class="form-group has-feedback">
+                  <label for="name" class="control-label">Ім'я:*</label>
+                  <input type="text" id="name" name="name" class="form-control user-input" required="required" value="" placeholder="Ім'я:*" minlength="2" maxlength="30">
+                  <span class="glyphicon form-control-feedback"></span>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Email пользователя -->
+                <div class="form-group has-feedback">
+                  <label for="email" class="control-label">Email:*</label>
+                  <input type="email" id="email" name="email" class="form-control user-input" required="required" value="" placeholder="Email:*" maxlength="30">
+                  <span class="glyphicon form-control-feedback"></span>
+                </div>
+              </div>
+              <div class="row">
+                <!-- phone пользователя -->
+                <div class="form-group has-feedback">
+                  <label for="email" class="control-label">Телефон:*</label>
+                  <input type="tel" id="tel" name="tel" class="form-control user-input" value="" placeholder="Телефон:">
+                  <span class="glyphicon form-control-feedback"></span>
                 </div>
               </div>
             </div>
-          </div>
+            <!-- Сообщение пользователя -->
+            <div class="form-group has-feedback">
+              <label for="message" class="control-label">Повідомлення:*</label>
+              <textarea id="message" name= "message" class="form-control user-input" rows="3" placeholder="Повідомлення:*" minlength="20" maxlength="500" required="required"></textarea>
+            </div>
+            <!-- <div class="g-recaptcha" data-sitekey="6LfpEg4UAAAAANhhYLimIKiG6zeMCFDeVwl1iGTt"></div> -->
+            <!-- for szk.ua -->
+            <!-- <div class="g-recaptcha" data-sitekey="6LeGjw4UAAAAAJBbiZyxAvYR7aMcaLTmvahm4OoH"></div> -->
+            <!-- for szk.esy.es -->
+            <!-- Кнопка, отправляющая форму -->
+            <div class="button-inside">
+              <button type="submit" class="btn btn-primary">ВІДПРАВИТИ</button>
+            </div>
+          </form>
+          <!-- Конец формы -->
         </div>
       </div>
     </div>
-  </div>
-  <div class="back-to-top-button"></div>
-  <script src="assets/js/jquery-1.10.1.js"></script>
-  <script src="assets/js/overscroll.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
-  <script src="assets/js/form.js"></script>
-  <script>
-    function openForm() {
-      $("#form").css("display", "block");
-      $("#closeForm").click(function() {
-        $("#form").css("display", "none");
-      })
-    }
-    function openMap() {
-      $("#map").css("display", "block");
-      $("#closeMap").click(function() {
-        $("#map").css("display", "none");
-      })
-    }
-    $("#openMenu").click(function() {
-      $("#menu").toggleClass("open");
-    });
-    function scrollWin() {
-      var h = Math.max(document.documentElement.clientHeight, window.innerHeight || 0) - 160;
-      $('html, body').animate({scrollTop:h}, 800);
-    }
-  </script>
-</body>
-
+    <script src="assets/js/jquery-1.10.1.js"></script>
+    <script src="assets/js/overscroll.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+    <script src="assets/js/form.js"></script>
+    <script>
+      function openForm() {
+        $("#form").css("display", "block");
+        $("#closeForm").click(function() {
+          $("#form").css("display", "none");
+        })
+      }
+      function openMap() {
+        $("#map").css("display", "block");
+        $("#closeMap").click(function() {
+          $("#map").css("display", "none");
+        })
+        initMap()
+      }
+      $("#openMenu").click(function() {
+        $("#menu").toggleClass("open");
+      });
+      function scrollWin() {
+        var h = $("#title").outerHeight() - 98;
+        $('html, body').animate({scrollTop:h}, 800);
+      }
+      function initMap() {
+        var uluru = {lat: 50.914675, lng: 34.772751};
+        var map = new google.maps.Map(document.getElementById('myMap'), {
+          zoom: 18,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+       }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC04J_lW_ksA5gFeSEBEOmSTNlxpD01WBw"></script>
+  </body>
 </html>

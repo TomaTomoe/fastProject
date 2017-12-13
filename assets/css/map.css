@@ -1,0 +1,33 @@
+#myMap {
+   height: 100%;
+   width: 100%;
+ }
+#map {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1000;
+  background: rgba(0,0,0,0.85);}
+#map .modal-header {
+  text-align: right;}
+#map button {
+  height: 50px;
+  width: 50px;
+  font-size: 35px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+  outline: none;
+  margin-right: 32px;}
+#map .modal-body {
+  height: calc(100vh - 50px);}
+#map .modal-body > div {
+  height: 100%;}
+@media all and (max-width: 500px) {
+  #map .modal-body > div {
+    padding: 0 !important;
+  }
+}

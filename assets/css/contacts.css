@@ -1,0 +1,151 @@
+#section-contact_info {
+  padding-top: 98px;
+}
+.text_system_6 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.text_system_3 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    padding-bottom: 25px;
+}
+.text_system_9 {
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    color: #747474;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.info-block {
+  max-width: 1200px;
+  margin: auto;
+}
+
+td, th {
+    padding: 10px;
+    vertical-align: top;
+}
+.button-inside {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+.button-inside button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #353535;
+    background-color: transparent;
+    border-color: #353535;
+    padding: 16px 60px 15px;
+    text-align: center;
+    border: 2px solid;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    line-height: 1;
+    font-size: 18px;
+    outline: none;
+}
+.button-inside button:hover {
+    color: #ffffff;
+    background-color: #e48301;
+    border-color: #e48301;
+}
+.black-bg {
+  background: #000000;}
+  .text_system_11 a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 400;
+    font-style: normal;}
+    .alert-success {
+        color: #3c763d;
+        background-color: #dff0d8;
+        border-color: #d6e9c6;
+    }
+    .alert {
+        padding: 15px;
+        margin-bottom: 20px;
+        border: 1px solid transparent;
+        border-radius: 4px;
+        text-align: center;
+    }
+    #contactFormStatic {
+        width: 100%;
+        max-width: 1200px;
+        padding: 30px;
+        margin: auto;
+    }
+    #section-form .row {
+    margin: 0;
+}
+#contactFormStatic .form-group {
+    width: 100%;
+    margin-bottom: 20px;
+}
+label.control-label {
+    display: none;
+}
+.user-input {
+    display: block;
+    width: 100%;
+    font-size: 17px;
+    padding: 18px 23px;
+    line-height: 23px;
+    border: 1px solid;
+    height: 100%;
+    color: #353535;
+    background-color: #f8f8f8;
+    font-style: normal;
+    font-weight: 400;
+    border-color: transparent;
+}
+input:focus, textarea:focus {
+    outline: 1px solid #353535;
+}
+#myMap {
+   height: 500px;
+   width: 100%;
+ }
+@media all and (min-width: 1200px) {
+
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .text_system_6 {
+    font-size: 40px;}
+}
+@media all and (max-width: 767px){
+  .text_system_6 {
+    font-size: 34px;}
+    .text_system_3 {
+      font-size: 22px;
+    }
+}
+@media all and (max-width: 500px){
+  .text_system_6 {
+    font-size: 30px;}
+    .text_system_3 {
+      font-size: 20px;
+    }
+  .button-inside button {
+padding: 12px 40px;
+font-size: 16px;
+    }
+}

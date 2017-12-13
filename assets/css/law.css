@@ -1,0 +1,125 @@
+#section-content {
+    padding-top: 98px;
+}
+
+.text_system_6 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 52px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.text_normal_dark {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 21px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+    list-style: none;
+    max-width: 1000px;
+    margin: auto;
+}
+.text_system_7 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 32px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 25px;
+}
+#content {
+    background: url("../images/law-background2.jpg");
+    background-size: cover;
+    background-position-y: center;
+    background-attachment: fixed;
+}
+
+.law-service-list {
+    max-width: 1000px;
+    padding: 0 30px;
+    margin: auto;
+}
+.text_normal {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 18px;
+    line-height: 1.7;
+    letter-spacing: 0px;
+    list-style: none;
+}
+.text_normal > li {
+    padding: 10px 0;
+}
+.text_system_2 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #353535;
+    font-size: 30px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.button-inside {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 50px;
+}
+.button-inside a {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #353535;
+    background-color: transparent;
+    border-color: #353535;
+    padding: 16px 60px 15px;
+    text-align: center;
+    border: 2px solid;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    line-height: 1;
+    font-size: 18px;
+    outline: none;
+}
+.button-inside a:hover {
+    color: #ffffff;
+    background-color: #e48301;
+    border-color: #e48301;
+}
+@media all and (min-width: 1200px) {
+
+}
+@media all and (min-width: 992px) and (max-width: 1199px) {
+
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .text_system_6 {
+    font-size: 40px;}
+    .text_system_2 {
+      font-size: 28px;
+    }
+}
+@media all and (max-width: 767px){
+  .text_system_6 {
+    font-size: 34px;}
+    .text_system_2 {
+      font-size: 24px;
+    }
+}
+@media all and (max-width: 500px){
+  .text_system_6 {
+    font-size: 30px;}
+  .button-inside a {
+padding: 12px 40px;
+font-size: 16px;
+    }
+}

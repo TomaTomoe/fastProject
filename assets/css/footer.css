@@ -1,0 +1,100 @@
+.container_footer_h012 {
+    background-image: url("../images/home-parallax.jpg");
+    margin: 0px;
+    padding: 0px;
+    background-color: #353535;
+    border-style: none;
+    border-color: #fff;
+    border-width: 0px;
+    border-radius: 0px;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+.text_system_8 {
+    font-weight: 600;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 21px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+}
+.text_system_10 {
+    font-weight: 400;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0px;
+}
+.text_system_13 {
+    font-weight: 300;
+    font-style: normal;
+    font-family: 'Open Sans', sans-serif;
+    color: #ffffff;
+    font-size: 60px;
+    line-height: 1.2;
+    letter-spacing: 4px;
+}
+.text_system_11 a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-style: normal;}
+a.link_to_map, a.link_to_map:hover, a.link_to_map:focus {
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0px;
+    cursor: pointer;
+}
+.button-orange {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background: #e48301;
+    color: #ffffff;
+    padding: 16px 60px 15px;
+    text-align: center;
+    border: 2px solid #e48301;
+    -webkit-transition: all .5s ease;
+    transition: all .5s ease;
+    line-height: 1;
+    font-size: 18px;
+    outline: none;
+}
+.button .button-orange:hover{
+  background: transparent;
+  border-color: #ffffff;
+  color: #ffffff;}
+  .black-bg {
+    background: #000000;}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .text_system_13 {
+    font-size: 40px;}
+
+}
+@media all and (max-width: 767px){
+  .container_footer_h012 {
+    background-image: url("../images/home-parallax-mini.jpg");
+  }
+  .text_system_13 {
+    font-size: 34px;}
+
+}
+@media all and (max-width: 500px) {
+  .text_system_13 {
+    font-size: 30px;}
+    .button-orange,
+    #contactFormStatic .button-inside button {
+      font-weight: 400;
+      padding: 12px 40px;
+      font-size: 16px;}
+  }
