@@ -96,10 +96,12 @@
     border-color: #e48301;
 }
 @media all and (min-width: 1200px) {
-
+  .parallax {
+    background-attachment: fixed;}
 }
 @media all and (min-width: 992px) and (max-width: 1199px) {
-
+  .parallax {
+    background-attachment: fixed;}
 }
 @media all and (min-width: 768px) and (max-width: 991px) {
   .text_system_6 {
